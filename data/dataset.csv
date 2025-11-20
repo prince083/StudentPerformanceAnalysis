@@ -1,0 +1,505 @@
+Student_ID,Age,Gender,Marital_Status,Course_Chosen,Application_Mode,Residence_Location,Parental_Education,Parental_Income_Level,Employment_Status,Semester_Enrolled_Units,Semester_Credited_Units,Semester_Evaluated_Units,Semester_Approved_Units,Semester_Average_Grade,Retention,Unemployment_Rate,Inflation_Rate,Regional_GDP,Year,Attendance,Grade_Average,Study_Career,Residence_Type,Socioeconomic_Level
+STUD_496,23,Male,Single,Technologies,Online,Suburban,Master,65990,Part-time,2,0,6,8,2.2,1,5,2.5,25000,2019,95.13079549,2.651185124,Engineering,Urban,Low
+STUD_191,20,Male,Married,Education,Online,Suburban,High School,65052,Employed,5,3,5,1,3.97,0,5,2.5,25000,2020,64.97534498,2.240699569,Science,Urban,Medium
+STUD_125,23,Female,Married,Agronomy,In-person,Suburban,Bachelor,69334,Unemployed,6,4,6,0,2.61,0,5,2.5,25000,2019,81.19863315,2.467672581,Arts,Rural,Low
+STUD_304,21,Male,Divorced,Agronomy,Online,Suburban,Bachelor,36497,Employed,2,2,8,0,2.33,0,5,2.5,25000,2019,82.14729251,3.398224563,Arts,Urban,Medium
+STUD_357,26,Male,Single,Management,Online,Suburban,Bachelor,97292,Employed,4,0,0,4,3.71,0,5,2.5,25000,2018,90.28941556,3.508945177,Engineering,Urban,Low
+STUD_29,20,Male,Divorced,Agronomy,In-person,Rural,Master,97291,Unemployed,8,1,7,7,0.41,0,5,2.5,25000,2021,70.86935463,3.439568931,Arts,Rural,Low
+STUD_63,22,Male,Widowed,Education,Online,Urban,Bachelor,21036,Part-time,1,3,3,7,0.81,1,5,2.5,25000,2021,77.54123907,3.742517703,Arts,Urban,Medium
+,22,Female,Single,Education,Online,Suburban,Master,71565,Unemployed,6,2,1,3,1.55,0,5,2.5,25000,2017,68.85903559,3.756665692,Arts,Urban,Medium
+STUD_38,21,Male,Widowed,Nursing,Online,Rural,PhD,109683,Employed,8,4,0,4,0.8,1,5,2.5,25000,2021,72.15787795,2.065523403,Arts,Urban,Low
+,25,Male,Widowed,Technologies,In-person,Urban,Master,55260,Employed,3,5,3,3,0.61,0,5,2.5,25000,2018,85.76995066,3.917008207,Arts,Urban,High
+STUD_178,18,Female,Widowed,Agronomy,Referral,Rural,Bachelor,46972,Unemployed,4,7,2,2,1.62,1,5,2.5,25000,2017,78.63131043,2.33571313,Science,Rural,High
+STUD_171,18,Female,Divorced,Nursing,Online,Rural,Bachelor,29227,Employed,2,1,4,1,3.99,1,5,2.5,25000,2017,68.3833464,2.600738541,Engineering,Rural,Medium
+STUD_90,30,Male,Married,Journalism,In-person,Suburban,High School,78262,Unemployed,1,5,3,1,1.11,1,5,2.5,25000,2019,88.7332099,3.228783775,Business,Urban,Medium
+,26,Male,Single,Agronomy,In-person,Suburban,PhD,38455,Part-time,6,6,8,5,0.72,1,5,2.5,25000,2020,80.12492648,2.654224658,Engineering,Urban,High
+STUD_150,25,Female,Widowed,Management,Online,Suburban,PhD,75857,Unemployed,2,4,6,1,0.55,0,5,2.5,25000,2018,92.10789616,3.980914845,Science,Urban,Low
+STUD_424,18,Male,Married,Nursing,In-person,Urban,High School,58733,Part-time,8,6,6,6,3.47,1,5,2.5,25000,2021,70.43938799,2.059958617,Engineering,Urban,Medium
+STUD_445,19,Female,Single,Journalism,Referral,Rural,Bachelor,84466,Unemployed,4,4,4,5,3.7,0,5,2.5,25000,2017,78.69222182,2.479878398,Business,Rural,Low
+,18,Female,Married,Social Service,Referral,Urban,Master,53381,Part-time,5,7,3,0,1.25,0,5,2.5,25000,2018,73.51559866,3.386593754,Engineering,Urban,Low
+STUD_358,23,Female,Married,Journalism,Online,Rural,Bachelor,49842,Employed,8,6,7,7,1.53,1,5,2.5,25000,2017,65.88523738,2.033500196,Engineering,Rural,High
+STUD_419,19,Male,Married,Management,Online,Suburban,PhD,29428,Employed,3,8,4,6,2.64,0,5,2.5,25000,2019,80.35844181,2.253292321,Business,Urban,Medium
+STUD_246,21,Female,Divorced,Agronomy,In-person,Rural,PhD,65701,Unemployed,2,7,3,0,3.68,1,5,2.5,25000,2019,92.95772438,3.997521769,Science,Rural,Medium
+STUD_184,22,Female,Married,Agronomy,Online,Rural,PhD,69017,Unemployed,5,2,6,1,0.46,0,5,2.5,25000,2017,70.51271031,2.716377247,Business,Urban,Medium
+STUD_64,28,Female,Widowed,Journalism,Online,Rural,Bachelor,79059,Unemployed,4,7,1,8,3.5,0,5,2.5,25000,2020,85.85487344,3.102392928,Business,Rural,Low
+STUD_285,21,Male,Widowed,Design,Online,Suburban,PhD,33094,Part-time,5,4,0,4,1.79,1,5,2.5,25000,2019,66.08356717,2.924310739,Engineering,Rural,Low
+STUD_397,29,Female,Married,Nursing,Online,Urban,Bachelor,84748,Part-time,7,1,2,4,3.37,0,5,2.5,25000,2018,81.57597652,3.195764475,Business,Rural,Low
+STUD_232,18,Female,Divorced,Education,In-person,Urban,PhD,99133,Unemployed,1,5,7,3,0.58,1,5,2.5,25000,2017,70.18672443,2.823436481,Arts,Rural,Low
+STUD_214,29,Female,Married,Design,Referral,Urban,Bachelor,105461,Unemployed,6,4,1,7,0.89,0,5,2.5,25000,2019,60.20253314,3.895770557,Engineering,Urban,Low
+STUD_356,26,Male,Widowed,Education,In-person,Suburban,PhD,90214,Employed,1,7,2,2,2.95,0,5,2.5,25000,2020,60.68235394,2.056490081,Science,Rural,Low
+STUD_444,23,Female,Widowed,Agronomy,Online,Urban,High School,96188,Unemployed,4,4,1,8,2.57,1,5,2.5,25000,2020,79.70222872,2.0584927,Business,Urban,Medium
+STUD_272,30,Female,Single,Education,Online,Rural,PhD,31880,Unemployed,6,1,1,8,1.97,0,5,2.5,25000,2017,68.406049,3.736078902,Science,Urban,High
+STUD_50,30,Female,Married,Education,In-person,Urban,PhD,26881,Part-time,1,3,3,0,3.66,1,5,2.5,25000,2018,65.51301768,3.210865138,Engineering,Urban,Low
+STUD_449,21,Male,Divorced,Management,Online,Suburban,Bachelor,64096,Employed,7,4,4,0,1.17,0,5,2.5,25000,2019,94.56474057,2.627366746,Engineering,Rural,High
+STUD_377,23,Female,Single,Technologies,In-person,Urban,Bachelor,36467,Employed,3,1,8,0,0.29,1,5,2.5,25000,2021,77.87211377,2.466915609,Business,Rural,Low
+STUD_391,25,Male,Widowed,Nursing,Referral,Urban,PhD,25190,Employed,6,1,4,1,2.23,0,5,2.5,25000,2020,75.01911442,2.691428501,Science,Rural,High
+,28,Female,Widowed,Journalism,Online,Rural,Bachelor,79059,Unemployed,4,7,1,8,3.5,0,5,2.5,25000,2020,85.85487344,3.102392928,Business,Rural,Low
+STUD_491,24,Female,Married,Management,Online,Suburban,Bachelor,93462,Employed,1,7,7,2,1.85,0,5,2.5,25000,2018,92.91328691,2.049349649,Business,Rural,Low
+STUD_348,19,Female,Divorced,Technologies,In-person,Urban,PhD,74582,Unemployed,2,3,2,8,2.24,0,5,2.5,25000,2020,97.84638323,2.869084665,Business,Urban,Low
+STUD_405,18,Male,Divorced,Nursing,Online,Urban,PhD,24555,Employed,4,3,0,3,0.27,1,5,2.5,25000,2019,66.08296097,2.750254654,Science,Rural,High
+STUD_153,24,Male,Married,Social Service,In-person,Suburban,Bachelor,92461,Unemployed,3,0,5,8,2.13,0,5,2.5,25000,2020,67.7857292,2.863950931,Business,Urban,High
+STUD_333,18,Female,Divorced,Nursing,Online,Urban,High School,104816,Part-time,4,4,8,7,2.45,0,5,2.5,25000,2021,96.11739977,3.943435185,Engineering,Rural,High
+,24,Female,Divorced,Journalism,In-person,Urban,Master,79275,Unemployed,2,3,5,0,2.5,0,5,2.5,25000,2018,97.14272517,3.801331289,Business,Urban,Medium
+STUD_369,28,Female,Single,Nursing,Referral,Suburban,Master,86268,Employed,7,8,7,1,2.98,1,5,2.5,25000,2021,68.33631531,3.297314259,Engineering,Rural,Medium
+STUD_193,25,Female,Single,Social Service,Online,Rural,High School,47237,Employed,1,0,0,2,1.21,0,5,2.5,25000,2018,95.76308298,3.683264527,Arts,Urban,High
+STUD_500,25,Male,Single,Social Service,Referral,Urban,PhD,65700,Part-time,7,3,3,2,3.24,1,5,2.5,25000,2020,94.40975534,2.019928632,Science,Rural,Low
+STUD_492,21,Male,Divorced,Design,Online,Rural,Bachelor,95609,Part-time,5,3,4,6,2.08,0,5,2.5,25000,2019,92.57102497,3.48200816,Science,Rural,High
+STUD_332,18,Male,Single,Social Service,In-person,Rural,PhD,41971,Employed,3,5,3,6,2.09,1,5,2.5,25000,2017,87.95234517,2.081460787,Arts,Urban,Medium
+STUD_319,21,Male,Divorced,Management,Online,Urban,High School,110355,Unemployed,5,8,1,3,0.54,1,5,2.5,25000,2018,75.18235207,2.706510889,Science,Urban,High
+,30,Female,Divorced,Design,In-person,Rural,PhD,99113,Unemployed,7,8,7,8,0.27,0,5,2.5,25000,2021,84.50323199,3.784134923,Arts,Urban,Low
+STUD_210,22,Male,Widowed,Agronomy,Online,Suburban,Master,71908,Part-time,7,7,2,2,2.71,1,5,2.5,25000,2021,87.01150848,3.580588823,Arts,Urban,Low
+STUD_115,26,Male,Widowed,Social Service,In-person,Urban,Bachelor,50362,Employed,5,1,4,8,2.24,0,5,2.5,25000,2020,73.33646085,3.121529047,Science,Urban,Medium
+,18,Female,Widowed,Agronomy,Referral,Urban,PhD,35401,Part-time,4,5,4,7,3.56,1,5,2.5,25000,2018,60.86497999,2.237315087,Engineering,Urban,High
+STUD_294,25,Female,Divorced,Education,In-person,Suburban,Bachelor,54468,Unemployed,6,7,6,0,2.53,0,5,2.5,25000,2018,84.70745453,2.818701214,Science,Urban,Low
+STUD_177,20,Female,Divorced,Journalism,Online,Rural,High School,43557,Unemployed,7,1,1,7,0.17,1,5,2.5,25000,2018,73.88213308,3.52023033,Business,Rural,Medium
+STUD_298,27,Male,Married,Management,Referral,Suburban,PhD,76694,Part-time,6,6,7,2,2.9,0,5,2.5,25000,2020,99.83192253,2.041983057,Business,Rural,Medium
+STUD_182,28,Male,Married,Social Service,In-person,Urban,Bachelor,93844,Unemployed,7,1,0,0,1.11,0,5,2.5,25000,2020,69.90394979,2.552266123,Arts,Rural,High
+STUD_130,19,Female,Married,Technologies,Referral,Urban,Master,83845,Part-time,7,6,7,4,2.84,0,5,2.5,25000,2017,61.26560811,3.046419257,Arts,Urban,Low
+STUD_317,23,Male,Single,Management,Referral,Urban,Bachelor,23125,Employed,5,0,6,5,2.76,0,5,2.5,25000,2019,86.44500129,2.654112366,Arts,Urban,Low
+STUD_394,28,Female,Widowed,Agronomy,Online,Rural,Bachelor,72572,Employed,1,2,2,0,3.89,1,5,2.5,25000,2020,67.99053151,3.318526923,Business,Rural,Low
+STUD_494,22,Female,Single,Management,In-person,Rural,PhD,100790,Part-time,5,2,6,8,3.01,1,5,2.5,25000,2019,75.66364901,2.731460421,Arts,Urban,Medium
+STUD_401,23,Female,Widowed,Management,Referral,Urban,Bachelor,85915,Unemployed,2,5,6,1,0.38,0,5,2.5,25000,2017,99.12164028,3.600495884,Arts,Urban,High
+STUD_28,28,Female,Married,Education,Referral,Rural,PhD,97703,Part-time,2,5,3,0,1.74,0,5,2.5,25000,2019,84.44608906,2.675452036,Arts,Rural,High
+STUD_79,20,Female,Divorced,Journalism,Referral,Urban,High School,56862,Unemployed,6,4,1,7,0.33,0,5,2.5,25000,2017,60.35905545,3.407353249,Business,Urban,Low
+STUD_85,18,Male,Married,Education,Online,Rural,Bachelor,118573,Part-time,5,7,7,6,0.26,0,5,2.5,25000,2019,73.36153758,2.140177877,Business,Urban,Low
+STUD_74,29,Male,Married,Technologies,In-person,Suburban,High School,71378,Part-time,8,1,4,2,2.19,1,5,2.5,25000,2021,93.88415533,3.960920347,Science,Urban,Medium
+STUD_19,18,Female,Widowed,Agronomy,Referral,Rural,High School,36301,Unemployed,2,3,3,4,3.81,0,5,2.5,25000,2018,78.25840046,3.333788924,Science,Rural,Medium
+STUD_146,43,Male,Widowed,Education,In-person,Suburban,Bachelor,115221,Part-time,1,2,1,4,2.83,1,5,2.5,25000,2017,84.28929643,2.088215187,Science,Urban,High
+STUD_385,42,Male,Single,Technologies,Referral,Suburban,PhD,65957,Employed,2,8,8,4,2.08,0,5,2.5,25000,2017,97.65720429,3.724636042,Business,Urban,High
+STUD_284,29,Female,Widowed,Education,Online,Urban,Bachelor,87347,Part-time,1,0,8,2,3.84,1,5,2.5,25000,2019,87.03723275,3.208118363,Science,Rural,Medium
+STUD_220,28,Female,Divorced,Social Service,Online,Rural,PhD,97865,Part-time,6,4,3,4,3.15,1,5,2.5,25000,2017,74.84765626,2.055733377,Arts,Rural,Low
+STUD_336,24,Female,Single,Journalism,Online,Suburban,High School,53097,Unemployed,8,7,1,0,1.08,1,5,2.5,25000,2020,63.35548136,2.245681469,Science,Rural,Medium
+STUD_132,22,Female,Widowed,Journalism,In-person,Suburban,Bachelor,21665,Employed,3,4,6,7,3.53,1,5,2.5,25000,2021,79.89242093,2.1808699,Engineering,Urban,Low
+STUD_498,23,Female,Divorced,Education,In-person,Suburban,Bachelor,58390,Unemployed,2,6,3,5,0.11,1,5,2.5,25000,2018,69.31052176,2.423464963,Science,Urban,Medium
+STUD_478,25,Male,Single,Education,Referral,Rural,Bachelor,89992,Unemployed,5,8,1,2,0.36,1,5,2.5,25000,2017,73.44789309,2.445683231,Engineering,Rural,High
+STUD_201,20,Male,Married,Nursing,Online,Rural,Bachelor,79552,Part-time,5,1,2,4,3.65,1,5,2.5,25000,2017,78.79712298,2.084215208,Engineering,Urban,Low
+STUD_374,30,Female,Divorced,Design,In-person,Suburban,Bachelor,59405,Part-time,4,0,1,2,0.45,1,5,2.5,25000,2019,81.97066712,3.705579004,Engineering,Urban,Low
+STUD_469,27,Male,Single,Technologies,Online,Rural,Master,85166,Part-time,8,7,8,2,0.68,0,5,2.5,25000,2021,76.35973719,3.385424364,Business,Urban,Medium
+STUD_471,20,Male,Divorced,Education,Referral,Rural,Master,39235,Unemployed,1,0,3,0,5.535746626,1,5,2.5,25000,2017,96.92593683,3.888452119,Arts,Urban,High
+STUD_277,26,Male,Single,Technologies,Online,Rural,Master,40445,Part-time,6,5,6,1,2.31,1,5,2.5,25000,2018,66.3212912,3.839048716,Engineering,Rural,Medium
+STUD_454,23,Female,Married,Education,In-person,Urban,Bachelor,76542,Part-time,7,4,6,6,0.99,0,5,2.5,25000,2021,93.29054141,2.435897604,Engineering,Rural,Medium
+STUD_470,25,Female,Single,Management,Referral,Suburban,Bachelor,36456,Part-time,8,6,7,3,2.84,1,5,2.5,25000,2019,61.588054,3.626406524,Science,Urban,Medium
+STUD_166,21,Female,Divorced,Management,In-person,Rural,Bachelor,43206,Employed,1,0,0,6,5.014787145,1,5,2.5,25000,2017,81.95948242,2.805000005,Engineering,Rural,High
+STUD_162,30,Female,Divorced,Management,Referral,Suburban,Bachelor,32482,Part-time,1,8,6,8,5.525703202,0,5,2.5,25000,2019,62.70559978,3.209205543,Science,Urban,High
+STUD_275,27,Female,Married,Technologies,Referral,Urban,Master,48659,Unemployed,8,8,0,0,2.02,0,5,2.5,25000,2018,65.02726164,2.190727283,Science,Urban,High
+STUD_17,20,Male,Divorced,Management,Referral,Rural,Master,119068,Employed,4,2,3,3,2.36,1,5,2.5,25000,2017,83.39242327,2.449300545,Engineering,Rural,High
+STUD_164,28,Male,Widowed,Management,Referral,Urban,Bachelor,48756,Part-time,5,8,3,4,1.43,1,5,2.5,25000,2019,95.61904771,3.369821791,Arts,Rural,High
+STUD_364,21,Male,Single,Nursing,In-person,Suburban,PhD,75396,Employed,8,7,0,3,2.62,0,5,2.5,25000,2021,80.92656707,2.239410973,Business,Urban,Medium
+STUD_239,26,Male,Married,Education,Online,Rural,PhD,113630,Unemployed,7,7,2,8,1.56,0,5,2.5,25000,2021,77.17860759,2.580586323,Arts,Urban,High
+STUD_339,22,Female,Single,Education,Referral,Urban,Bachelor,38607,Unemployed,1,8,1,8,3.96,1,5,2.5,25000,2017,62.51365927,2.885947151,Business,Rural,Medium
+STUD_80,25,Male,Widowed,Management,Referral,Suburban,Bachelor,108634,Unemployed,5,6,0,5,0.85,0,5,2.5,25000,2019,98.52990186,2.786264142,Arts,Rural,High
+STUD_306,30,Female,Divorced,Management,Referral,Urban,Bachelor,103096,Unemployed,4,1,2,2,0.08,1,5,2.5,25000,2020,61.7132461,2.303525281,Business,Rural,Low
+STUD_181,29,Female,Married,Education,Online,Urban,High School,113238,Part-time,6,8,5,2,3.63,1,5,2.5,25000,2019,61.45674855,2.978760226,Science,Urban,Low
+STUD_76,26,Male,Married,Management,Online,Urban,Bachelor,103131,Employed,1,6,6,1,3.29,0,5,2.5,25000,2018,89.20151486,2.869052121,Engineering,Urban,Low
+STUD_437,23,Female,Divorced,Nursing,In-person,Suburban,Bachelor,38963,Employed,4,6,6,4,3.92,0,5,2.5,25000,2019,83.90968485,2.786476132,Arts,Rural,High
+STUD_346,29,Male,Widowed,Management,Online,Urban,High School,25682,Part-time,7,7,5,2,2.23,0,5,2.5,25000,2019,95.28718636,3.602691547,Engineering,Urban,Medium
+STUD_309,24,Female,Widowed,Agronomy,In-person,Urban,Bachelor,83694,Employed,5,8,4,6,2.34,1,5,2.5,25000,2019,73.41154517,2.527647055,Engineering,Urban,High
+STUD_110,25,Male,Single,Social Service,In-person,Suburban,Bachelor,91793,Employed,0,3,3,5,4.856597008,1,5,2.5,25000,2020,79.95661348,3.495063475,Business,Rural,High
+STUD_230,27,Female,Divorced,Design,Online,Rural,Master,45525,Employed,6,3,6,7,2.06,0,5,2.5,25000,2019,88.02406947,2.823233961,Science,Urban,Medium
+STUD_180,23,Male,Single,Management,In-person,Suburban,PhD,78655,Employed,1,0,7,0,2.72,0,5,2.5,25000,2019,61.56179615,3.132497971,Business,Rural,Medium
+STUD_400,30,Female,Single,Management,Online,Suburban,Bachelor,48102,Unemployed,8,2,4,3,1.76,1,5,2.5,25000,2020,97.58153501,2.28720019,Arts,Rural,High
+STUD_149,21,Male,Widowed,Nursing,In-person,Rural,PhD,47267,Employed,4,1,7,5,1.6,1,5,2.5,25000,2017,68.51841548,3.514125954,Engineering,Rural,Medium
+STUD_307,27,Male,Widowed,Design,Online,Urban,Bachelor,38498,Part-time,4,7,5,8,2.95,0,5,2.5,25000,2019,71.0933758,3.045906156,Engineering,Urban,High
+STUD_155,28,Male,Single,Journalism,Referral,Suburban,Bachelor,69143,Employed,1,6,5,7,1.37,1,5,2.5,25000,2017,80.23623314,2.113786553,Business,Rural,High
+STUD_1,30,Female,Married,Management,In-person,Rural,High School,179712,Employed,6,5,5,5,2.34,0,5,2.5,25000,2019,86.9347439,5.998934033,Science,Rural,High
+STUD_261,29,Female,Married,Nursing,Online,Suburban,Master,67462,Unemployed,6,3,7,3,0.35,0,5,2.5,25000,2017,64.30653305,3.04466966,Engineering,Urban,Medium
+STUD_371,27,Female,Single,Journalism,Online,Suburban,Bachelor,30815,Unemployed,6,2,7,6,1.18,1,5,2.5,25000,2019,92.00594158,3.572406613,Science,Rural,High
+STUD_466,27,Male,Divorced,Nursing,Online,Urban,High School,78722,Employed,2,5,5,1,2.68,0,5,2.5,25000,2020,79.18507375,2.157856566,Engineering,Urban,High
+STUD_215,23,Female,Divorced,Management,Referral,Rural,Bachelor,85040,Unemployed,4,0,0,1,0.48,0,5,2.5,25000,2019,70.81697762,3.434139933,Arts,Rural,Low
+STUD_390,30,Male,Married,Management,Referral,Urban,Bachelor,85952,Part-time,7,2,0,7,3.15,0,5,2.5,25000,2019,87.89841574,3.272950559,Business,Urban,High
+STUD_21,23,Male,Married,Social Service,Referral,Rural,High School,48970,Employed,7,1,7,8,1.68,0,5,2.5,25000,2017,94.61970511,3.95227585,Engineering,Urban,High
+STUD_39,28,Female,Widowed,Journalism,Referral,Suburban,Bachelor,65367,Unemployed,4,8,4,6,0.28,1,5,2.5,25000,2018,65.49318798,3.546612726,Business,Urban,Low
+STUD_254,19,Female,Single,Education,Online,Rural,PhD,49102,Part-time,7,3,1,4,0.4,0,5,2.5,25000,2018,98.79703113,3.098556921,Arts,Urban,Medium
+STUD_329,20,Female,Single,Design,Online,Urban,Bachelor,115208,Unemployed,5,4,0,3,0.47,1,5,2.5,25000,2017,72.25391735,3.043457241,Arts,Urban,Medium
+STUD_86,27,Male,Single,Design,Online,Suburban,High School,95091,Unemployed,2,8,3,3,3.77,0,5,2.5,25000,2018,99.55625114,3.971208124,Arts,Urban,Low
+STUD_34,25,Female,Single,Journalism,Referral,Rural,Bachelor,106985,Part-time,1,3,6,5,1.14,0,5,2.5,25000,2020,76.21006886,3.400950634,Science,Urban,Low
+STUD_129,29,Female,Divorced,Technologies,Referral,Rural,Bachelor,36990,Unemployed,4,5,3,1,2.88,0,5,2.5,25000,2017,94.02658337,3.886069867,Business,Rural,Low
+STUD_479,22,Male,Divorced,Management,In-person,Urban,Bachelor,28773,Employed,5,6,2,4,2.42,1,5,2.5,25000,2018,79.47586012,2.977424618,Science,Rural,Medium
+STUD_198,21,Male,Married,Nursing,Referral,Urban,PhD,34596,Employed,5,1,1,2,2.01,0,5,2.5,25000,2020,95.33506137,2.525393771,Business,Urban,Medium
+STUD_368,25,Female,Single,Design,In-person,Urban,High School,66958,Part-time,3,5,2,4,2.66,0,5,2.5,25000,2021,76.81612792,3.736012098,Business,Urban,Low
+STUD_353,19,Female,Married,Agronomy,Referral,Suburban,PhD,23295,Unemployed,3,6,7,1,3.57,0,5,2.5,25000,2019,74.55130139,3.103410858,Business,Rural,Medium
+STUD_383,23,Female,Single,Technologies,In-person,Urban,Bachelor,88081,Part-time,6,0,3,1,3.01,1,5,2.5,25000,2020,63.62719377,2.22324303,Business,Urban,Low
+STUD_395,27,Female,Divorced,Management,Online,Urban,Bachelor,36192,Part-time,4,7,8,8,1.02,0,5,2.5,25000,2019,62.42640087,2.69829988,Science,Urban,High
+STUD_45,28,Male,Divorced,Education,Referral,Urban,Master,101540,Employed,3,4,1,6,2.41,0,5,2.5,25000,2020,79.13323876,2.831435608,Engineering,Urban,High
+STUD_206,26,Male,Widowed,Nursing,Online,Rural,Bachelor,23287,Unemployed,1,3,2,4,0.77,1,5,2.5,25000,2020,62.25545393,2.75634453,Science,Rural,Low
+STUD_88,26,Female,Married,Journalism,Referral,Rural,Bachelor,70732,Unemployed,4,8,7,6,3.49,0,5,2.5,25000,2020,98.03038766,2.495372588,Business,Urban,High
+STUD_483,18,Male,Single,Design,In-person,Suburban,PhD,84176,Part-time,8,2,6,0,1.09,0,5,2.5,25000,2017,78.59049925,2.499255596,Business,Urban,Low
+STUD_347,18,Female,Married,Journalism,In-person,Suburban,PhD,112956,Part-time,2,6,7,2,0,1,5,2.5,25000,2021,90.48011189,2.945731542,Arts,Rural,Low
+STUD_325,24,Male,Married,Nursing,Online,Rural,Bachelor,46010,Part-time,6,7,6,7,2.57,1,5,2.5,25000,2020,89.78430772,3.258639463,Arts,Urban,High
+STUD_289,27,Female,Divorced,Education,In-person,Rural,Bachelor,80141,Employed,6,3,8,1,0.6,1,5,2.5,25000,2019,64.33539502,2.257211979,Business,Urban,High
+STUD_412,20,Male,Widowed,Social Service,In-person,Suburban,High School,45214,Unemployed,1,1,6,1,1.09,0,5,2.5,25000,2017,86.91519071,2.35597625,Science,Urban,High
+STUD_446,26,Female,Single,Management,Referral,Urban,PhD,102975,Unemployed,8,3,5,5,1,1,5,2.5,25000,2017,73.51914381,3.814207592,Arts,Urban,High
+STUD_406,26,Male,Married,Nursing,Online,Rural,Master,106294,Part-time,8,6,8,0,0.01,0,5,2.5,25000,2018,75.09510481,3.584967613,Science,Urban,Low
+STUD_372,26,Female,Married,Education,Online,Rural,High School,118815,Part-time,8,4,0,1,2.26,1,5,2.5,25000,2019,92.10708671,2.381585457,Arts,Urban,Low
+STUD_196,27,Male,Single,Social Service,Referral,Urban,Master,34920,Unemployed,1,4,1,5,2.05,1,5,2.5,25000,2019,87.79360236,2.348453382,Business,Urban,Low
+STUD_437,23,Female,Divorced,Nursing,In-person,Suburban,Bachelor,38963,Employed,4,6,6,4,3.92,0,5,2.5,25000,2019,83.90968485,2.786476132,Arts,Rural,High
+STUD_271,25,Female,Widowed,Technologies,Referral,Suburban,High School,44439,Employed,2,4,3,4,3.63,0,5,2.5,25000,2019,62.22711895,2.056600971,Engineering,Urban,Low
+STUD_87,27,Male,Married,Nursing,In-person,Rural,Master,36395,Part-time,1,1,5,2,3.57,0,5,2.5,25000,2021,95.80636965,2.854668997,Engineering,Rural,Low
+STUD_244,22,Female,Widowed,Management,In-person,Urban,PhD,40872,Part-time,2,7,6,3,1.75,0,5,2.5,25000,2018,78.76807045,2.791580867,Engineering,Urban,High
+STUD_427,19,Male,Widowed,Management,Referral,Urban,Bachelor,88330,Part-time,6,6,6,8,1.75,1,5,2.5,25000,2019,87.34258094,3.712606804,Arts,Rural,High
+STUD_221,43,Female,Married,Design,Online,Urban,Master,50607,Employed,2,1,3,1,2.14,1,5,2.5,25000,2019,69.95452486,3.566986833,Arts,Rural,Low
+STUD_170,27,Male,Widowed,Journalism,Referral,Suburban,Bachelor,97341,Employed,8,0,6,8,1.15,0,5,2.5,25000,2018,99.73683827,3.704067907,Business,Urban,Low
+STUD_296,27,Female,Single,Education,In-person,Rural,High School,85198,Part-time,5,1,8,7,0.24,1,5,2.5,25000,2018,99.47778512,2.367372568,Business,Rural,Medium
+STUD_388,19,Female,Single,Design,Online,Suburban,PhD,100400,Part-time,4,2,3,8,1.63,0,5,2.5,25000,2020,93.49016456,2.24324347,Science,Urban,Medium
+STUD_150,25,Female,Widowed,Management,Online,Suburban,PhD,75857,Unemployed,2,4,6,1,0.55,0,5,2.5,25000,2018,92.10789616,3.980914845,Science,Urban,Low
+STUD_140,28,Male,Single,Technologies,Online,Urban,Bachelor,79218,Unemployed,1,7,7,8,2.02,1,5,2.5,25000,2021,79.4532965,2.558499312,Business,Rural,Low
+STUD_403,26,Female,Married,Nursing,Referral,Urban,Bachelor,77780,Employed,2,3,7,7,2.83,1,5,2.5,25000,2021,94.14209505,3.741191169,Arts,Urban,High
+STUD_366,24,Female,Divorced,Design,In-person,Urban,PhD,63503,Unemployed,0,4,3,1,5.034897195,0,5,2.5,25000,2019,72.43883857,3.342443273,Engineering,Urban,High
+STUD_109,18,Male,Single,Design,In-person,Suburban,Master,61431,Unemployed,3,7,7,3,2.19,1,5,2.5,25000,2021,62.96944936,3.868484185,Engineering,Rural,Medium
+STUD_287,26,Female,Widowed,Journalism,Referral,Suburban,PhD,57852,Unemployed,5,7,2,6,3.83,0,5,2.5,25000,2021,87.95029949,3.899269966,Science,Rural,High
+STUD_441,18,Male,Single,Technologies,Online,Rural,Bachelor,39116,Unemployed,8,8,3,6,3.16,0,5,2.5,25000,2018,74.3428625,2.244062054,Engineering,Urban,Medium
+STUD_136,48,Male,Widowed,Agronomy,In-person,Urban,Master,61026,Employed,4,0,7,0,2.39,0,5,2.5,25000,2020,86.59499453,2.387849808,Business,Rural,High
+STUD_409,21,Female,Divorced,Management,Online,Rural,PhD,77057,Unemployed,8,2,5,7,3.77,1,5,2.5,25000,2018,63.33322524,2.896234833,Science,Rural,Low
+STUD_363,18,Female,Widowed,Design,In-person,Suburban,PhD,115599,Unemployed,1,8,6,4,0.77,0,5,2.5,25000,2017,93.02114408,3.335612297,Engineering,Rural,Low
+STUD_15,30,Female,Single,Management,Online,Suburban,Bachelor,57921,Employed,6,7,1,8,0.65,1,5,2.5,25000,2021,90.82272255,5.998934033,Science,Rural,Low
+STUD_433,26,Male,Widowed,Technologies,In-person,Suburban,Bachelor,112998,Employed,5,4,0,0,1.99,1,5,2.5,25000,2019,89.37545236,3.409846369,Science,Urban,Low
+STUD_129,29,Female,Divorced,Technologies,Referral,Rural,Bachelor,36990,Unemployed,4,5,3,1,2.88,0,5,2.5,25000,2017,94.02658337,3.886069867,Business,Rural,Low
+STUD_136,48,Male,Widowed,Agronomy,In-person,Urban,Master,61026,Employed,4,0,7,0,2.39,0,5,2.5,25000,2020,86.59499453,2.387849808,Business,Rural,High
+STUD_382,21,Male,Divorced,Technologies,Referral,Rural,High School,22581,Employed,7,5,2,8,1.55,1,5,2.5,25000,2020,72.32976918,2.337650068,Engineering,Urban,High
+STUD_320,27,Male,Divorced,Journalism,In-person,Suburban,Bachelor,95031,Unemployed,3,8,0,7,3.63,1,5,2.5,25000,2019,84.93387119,2.199446355,Science,Urban,Medium
+STUD_208,28,Male,Divorced,Journalism,Online,Urban,PhD,97044,Part-time,0,2,2,7,5.423419146,1,5,2.5,25000,2019,93.51342702,3.209166463,Science,Rural,Low
+STUD_243,24,Female,Widowed,Social Service,Referral,Urban,Bachelor,104908,Unemployed,1,4,1,0,3.96,1,5,2.5,25000,2019,89.22963708,3.019839778,Science,Rural,Medium
+STUD_407,24,Male,Single,Management,In-person,Suburban,High School,114503,Employed,2,8,4,1,0.44,1,5,2.5,25000,2018,69.78145119,3.360118457,Business,Rural,Low
+STUD_410,30,Female,Married,Management,Online,Rural,Master,100217,Employed,7,1,7,6,0.55,1,5,2.5,25000,2019,82.06213171,2.448584091,Arts,Urban,Medium
+STUD_459,27,Female,Married,Design,In-person,Rural,Master,40015,Part-time,3,3,8,2,3.27,0,5,2.5,25000,2017,86.26973628,2.055178841,Business,Urban,Low
+STUD_133,25,Male,Divorced,Education,In-person,Urban,Bachelor,72067,Part-time,7,4,7,4,1,1,5,2.5,25000,2020,95.95964254,2.063316562,Arts,Rural,Low
+STUD_384,18,Female,Widowed,Education,Referral,Rural,Bachelor,104561,Employed,2,4,4,3,2.16,1,5,2.5,25000,2019,71.71059781,3.855725118,Engineering,Rural,Medium
+STUD_228,30,Male,Single,Journalism,Online,Suburban,Bachelor,54550,Unemployed,1,8,7,3,3.82,0,5,2.5,25000,2017,83.68625325,3.332715109,Science,Rural,High
+STUD_236,23,Male,Married,Education,Referral,Suburban,PhD,61697,Employed,1,7,7,0,5.65258274,1,5,2.5,25000,2020,99.98720685,3.345263954,Engineering,Urban,High
+STUD_53,24,Female,Married,Social Service,Referral,Suburban,High School,77593,Employed,6,0,4,1,3.7,0,5,2.5,25000,2019,80.61934415,3.475005628,Arts,Rural,High
+STUD_499,20,Male,Divorced,Management,Referral,Suburban,Bachelor,107704,Part-time,0,7,7,8,5.451727408,1,5,2.5,25000,2020,70.83353368,3.37302012,Engineering,Urban,Low
+STUD_460,27,Male,Single,Design,In-person,Suburban,High School,86606,Part-time,5,1,7,2,0.66,0,5,2.5,25000,2018,73.69057713,2.096670229,Science,Rural,Low
+STUD_338,23,Male,Divorced,Journalism,In-person,Suburban,Master,118048,Unemployed,7,4,3,1,0.43,1,5,2.5,25000,2019,83.86348878,2.905727358,Science,Urban,Low
+STUD_324,25,Female,Married,Social Service,Referral,Suburban,Bachelor,115662,Part-time,7,4,6,2,0.69,1,5,2.5,25000,2019,70.30751369,2.936545912,Arts,Urban,Medium
+STUD_422,20,Male,Married,Journalism,Referral,Suburban,Master,46269,Employed,8,4,1,0,2.43,0,5,2.5,25000,2021,82.56435589,3.828962331,Engineering,Rural,Low
+STUD_144,26,Male,Widowed,Nursing,Online,Urban,Master,115986,Employed,1,7,2,3,2.19,0,5,2.5,25000,2019,83.34275718,3.451978201,Engineering,Urban,High
+STUD_43,19,Female,Married,Management,In-person,Urban,Bachelor,77635,Employed,1,1,1,6,5.111311858,0,5,2.5,25000,2020,63.76567165,2.115312098,Arts,Rural,Medium
+STUD_292,22,Male,Widowed,Management,Online,Urban,High School,75721,Unemployed,7,5,7,5,0.7,0,5,2.5,25000,2017,80.59967186,2.127110274,Engineering,Rural,Medium
+STUD_173,46,Female,Single,Management,In-person,Urban,Master,49650,Part-time,5,1,2,7,0.5,0,5,2.5,25000,2019,84.53834217,2.041749723,Science,Urban,Low
+STUD_52,28,Female,Married,Journalism,In-person,Rural,Bachelor,74208,Unemployed,3,2,6,5,3.12,0,5,2.5,25000,2019,82.98384466,3.795184959,Engineering,Urban,High
+STUD_435,30,Male,Single,Nursing,In-person,Suburban,Master,55743,Unemployed,6,3,6,4,0.27,1,5,2.5,25000,2020,93.4789477,2.98791267,Engineering,Urban,High
+STUD_165,26,Male,Divorced,Agronomy,Referral,Urban,PhD,100999,Employed,6,3,5,4,0.1,0,5,2.5,25000,2020,66.17369401,2.948634914,Business,Rural,Low
+STUD_190,23,Male,Single,Education,Referral,Urban,PhD,113307,Employed,6,5,0,2,2.47,0,5,2.5,25000,2021,92.58877228,2.053940189,Business,Rural,High
+STUD_318,29,Male,Divorced,Agronomy,In-person,Rural,PhD,25304,Part-time,1,2,2,2,2.78,1,5,2.5,25000,2021,84.67368896,3.549584946,Arts,Rural,Medium
+STUD_495,25,Male,Widowed,Technologies,In-person,Urban,Master,55260,Employed,3,5,3,3,0.61,0,5,2.5,25000,2018,85.76995066,3.917008207,Arts,Urban,High
+STUD_107,27,Male,Married,Design,Referral,Suburban,PhD,98331,Unemployed,3,6,4,2,1.29,1,5,2.5,25000,2017,73.91658655,2.495884947,Arts,Urban,Medium
+STUD_342,18,Female,Widowed,Technologies,Referral,Urban,Bachelor,96750,Unemployed,3,1,6,0,2.85,1,5,2.5,25000,2019,73.76892992,2.826398356,Science,Rural,Medium
+STUD_349,30,Male,Widowed,Journalism,In-person,Urban,PhD,114314,Unemployed,5,0,4,6,0.37,0,5,2.5,25000,2019,78.22205705,2.660507228,Business,Urban,Medium
+STUD_3,29,Male,Widowed,Journalism,In-person,Urban,PhD,10360.5,Employed,7,3,2,3,2.29,1,5,2.5,25000,2021,72.89328649,1.000244742,Business,Rural,High
+STUD_448,22,Female,Divorced,Journalism,Referral,Urban,High School,31342,Part-time,1,3,5,3,2.59,1,5,2.5,25000,2019,60.76167895,2.116913829,Science,Urban,Medium
+STUD_51,23,Male,Widowed,Education,In-person,Suburban,High School,28275,Part-time,2,5,6,0,3.38,1,5,2.5,25000,2020,61.49088258,2.547873044,Business,Urban,Low
+STUD_49,18,Male,Married,Design,Online,Rural,Bachelor,99315,Employed,6,4,8,7,3.42,0,5,2.5,25000,2019,70.28951392,3.938515803,Engineering,Urban,Low
+STUD_55,25,Male,Married,Journalism,In-person,Suburban,Bachelor,53106,Employed,3,8,4,2,0.05,1,5,2.5,25000,2021,72.35575076,3.031148155,Science,Urban,Low
+STUD_135,20,Female,Married,Journalism,Online,Rural,PhD,23953,Unemployed,6,1,4,4,1.67,1,5,2.5,25000,2017,91.75381698,3.33651464,Engineering,Urban,Medium
+STUD_313,22,Female,Widowed,Technologies,In-person,Rural,Bachelor,70468,Employed,5,8,3,4,3.55,0,5,2.5,25000,2021,82.49368363,3.745885241,Business,Rural,High
+STUD_217,30,Male,Widowed,Agronomy,Referral,Urban,Bachelor,60945,Employed,4,6,7,5,1.54,1,5,2.5,25000,2017,60.52983509,2.025240399,Science,Urban,Low
+STUD_468,20,Female,Widowed,Design,Online,Suburban,Master,73091,Part-time,1,0,6,2,0.19,1,5,2.5,25000,2021,68.60386892,3.902676265,Business,Urban,High
+STUD_69,29,Male,Single,Agronomy,Referral,Urban,Bachelor,58492,Part-time,6,6,7,6,0.64,0,5,2.5,25000,2020,98.33110852,3.486992617,Engineering,Urban,Low
+STUD_131,21,Female,Widowed,Education,Online,Rural,Master,93556,Part-time,7,2,1,5,2.61,0,5,2.5,25000,2020,95.81409567,3.63494341,Science,Rural,High
+STUD_295,27,Male,Married,Design,Referral,Suburban,Master,92554,Part-time,3,2,1,6,1.06,1,5,2.5,25000,2021,79.24079973,2.640635206,Business,Urban,Low
+STUD_253,21,Female,Divorced,Management,Online,Rural,Bachelor,29288,Unemployed,8,2,8,3,0.7,1,5,2.5,25000,2017,92.07318964,2.256402827,Science,Urban,High
+STUD_455,24,Female,Widowed,Social Service,Online,Rural,Bachelor,90041,Unemployed,8,5,7,6,0.3,0,5,2.5,25000,2021,68.33397542,2.01979905,Science,Urban,Medium
+STUD_158,19,Female,Married,Social Service,In-person,Urban,PhD,98993,Unemployed,1,3,5,1,2.14,0,5,2.5,25000,2019,61.2314025,3.579958466,Business,Rural,High
+STUD_291,26,Female,Widowed,Nursing,In-person,Rural,Bachelor,48983,Unemployed,6,6,6,1,3.29,0,5,2.5,25000,2018,86.09384369,3.878703429,Business,Rural,High
+STUD_472,25,Male,Single,Agronomy,In-person,Rural,PhD,89348,Employed,1,3,0,1,2.33,1,5,2.5,25000,2018,87.01716776,3.472334607,Engineering,Rural,Low
+STUD_386,25,Male,Divorced,Technologies,Referral,Urban,High School,21167,Part-time,1,5,0,2,2.2,0,5,2.5,25000,2018,91.05991918,2.877580929,Engineering,Rural,High
+STUD_58,19,Female,Divorced,Social Service,Referral,Rural,Bachelor,58019,Part-time,6,2,4,6,0.82,1,5,2.5,25000,2019,75.27647312,3.125911358,Science,Urban,Low
+STUD_60,20,Male,Widowed,Design,Referral,Urban,High School,117554,Employed,4,4,1,3,2.02,1,5,2.5,25000,2017,63.45990695,3.621943947,Business,Urban,High
+STUD_88,26,Female,Married,Journalism,Referral,Rural,Bachelor,70732,Unemployed,4,8,7,6,3.49,0,5,2.5,25000,2020,98.03038766,2.495372588,Business,Urban,High
+STUD_473,24,Female,Divorced,Social Service,Online,Suburban,Bachelor,63393,Part-time,1,4,4,2,0.61,0,5,2.5,25000,2017,65.44515158,2.738837448,Science,Urban,High
+STUD_99,25,Male,Widowed,Journalism,Referral,Rural,Master,101476,Employed,2,1,4,4,1.12,0,5,2.5,25000,2019,68.63184293,3.433295612,Business,Urban,Medium
+STUD_420,44,Male,Widowed,Management,In-person,Rural,High School,45905,Unemployed,5,1,5,4,1.52,0,5,2.5,25000,2017,80.04435949,3.901904156,Science,Rural,Medium
+STUD_416,23,Male,Married,Design,In-person,Urban,Bachelor,61205,Part-time,6,8,5,6,2.01,0,5,2.5,25000,2018,98.76086646,2.845274865,Arts,Rural,Medium
+STUD_276,27,Female,Married,Nursing,Referral,Urban,Master,54120,Part-time,0,1,8,8,4.719212907,1,5,2.5,25000,2017,73.80783949,2.408454287,Arts,Urban,Low
+STUD_486,21,Female,Single,Journalism,Online,Urban,High School,84248,Employed,3,4,7,7,1.55,1,5,2.5,25000,2021,84.39410351,2.487787865,Engineering,Rural,Medium
+STUD_450,21,Female,Widowed,Management,In-person,Urban,High School,69977,Unemployed,2,8,3,7,3.64,0,5,2.5,25000,2021,66.30590456,2.648699978,Arts,Rural,Medium
+STUD_8,19,Female,Married,Nursing,Referral,Rural,Bachelor,10360.5,Part-time,2,4,4,6,0.3,0,5,2.5,25000,2017,97.60037272,1.000244742,Science,Urban,High
+STUD_199,18,Male,Divorced,Technologies,In-person,Urban,PhD,78848,Unemployed,4,4,8,0,0.55,0,5,2.5,25000,2019,74.0820918,2.730819814,Arts,Urban,Low
+STUD_497,21,Female,Widowed,Education,Online,Urban,Bachelor,26517,Part-time,6,8,1,2,2.63,0,5,2.5,25000,2018,80.09200075,2.812805437,Science,Urban,Low
+STUD_12,18,Male,Widowed,Technologies,In-person,Suburban,PhD,10360.5,Employed,3,1,8,7,0.3,0,5,2.5,25000,2021,81.1271263,1.000244742,Arts,Rural,Low
+STUD_265,18,Male,Divorced,Education,Referral,Suburban,PhD,96701,Unemployed,8,3,6,0,1.61,1,5,2.5,25000,2019,69.93609833,3.284102381,Arts,Rural,High
+STUD_354,26,Female,Widowed,Agronomy,In-person,Rural,Bachelor,99622,Employed,8,7,2,7,3.89,0,5,2.5,25000,2018,75.09247298,3.630065124,Science,Urban,Low
+STUD_92,18,Male,Single,Journalism,Online,Urban,High School,54911,Part-time,5,8,8,8,1.6,0,5,2.5,25000,2018,68.51811853,2.679490531,Science,Rural,Medium
+STUD_229,28,Male,Widowed,Social Service,Referral,Rural,Bachelor,75387,Unemployed,1,6,6,1,1.19,0,5,2.5,25000,2021,64.10363295,2.066555747,Arts,Urban,Low
+STUD_279,19,Female,Single,Technologies,In-person,Suburban,PhD,35558,Part-time,4,1,3,1,0.83,1,5,2.5,25000,2018,86.91680774,3.080676596,Arts,Urban,Medium
+STUD_10,19,Male,Widowed,Technologies,In-person,Rural,High School,10360.5,Unemployed,7,4,6,5,3.26,0,5,2.5,25000,2018,99.29506754,1.000244742,Business,Urban,Medium
+STUD_439,24,Male,Married,Social Service,In-person,Urban,Bachelor,57875,Part-time,2,8,5,3,0.62,1,5,2.5,25000,2020,72.94353501,3.942166779,Arts,Urban,High
+STUD_290,30,Male,Widowed,Design,In-person,Rural,High School,54235,Part-time,2,7,0,3,2.24,1,5,2.5,25000,2017,69.85003787,3.070667694,Arts,Urban,Low
+STUD_167,21,Female,Divorced,Management,In-person,Urban,Bachelor,115205,Part-time,6,2,4,3,2.07,0,5,2.5,25000,2020,71.73469093,2.516742349,Engineering,Urban,High
+STUD_141,25,Male,Single,Education,In-person,Rural,Bachelor,104316,Employed,5,8,5,8,2.14,1,5,2.5,25000,2020,90.56686165,2.332565358,Science,Rural,Medium
+STUD_429,27,Female,Divorced,Design,Online,Urban,Master,97570,Employed,2,8,1,5,0.45,1,5,2.5,25000,2020,91.41086533,2.348400147,Arts,Rural,High
+STUD_124,29,Female,Widowed,Nursing,Referral,Urban,Bachelor,117861,Employed,7,2,4,6,2.65,1,5,2.5,25000,2020,94.46842506,3.562009863,Science,Rural,Low
+STUD_121,22,Male,Married,Education,Online,Suburban,Bachelor,49092,Part-time,3,6,2,2,1.5,0,5,2.5,25000,2021,89.70860284,2.260633384,Science,Rural,High
+STUD_305,29,Male,Widowed,Design,Referral,Rural,Bachelor,68915,Employed,2,6,2,7,2.33,0,5,2.5,25000,2020,91.25088465,2.878204977,Arts,Rural,High
+STUD_27,24,Female,Married,Design,Online,Urban,High School,31900,Employed,8,5,1,2,0.84,0,5,2.5,25000,2017,62.90642354,3.062508703,Arts,Urban,High
+STUD_33,23,Male,Single,Education,Referral,Rural,Bachelor,112168,Part-time,5,3,0,1,2.15,0,5,2.5,25000,2018,77.36080309,3.743051174,Science,Rural,Low
+STUD_270,29,Female,Single,Management,In-person,Urban,Master,72870,Part-time,7,3,8,5,0.26,1,5,2.5,25000,2020,74.23315178,3.415070769,Engineering,Urban,High
+STUD_244,22,Female,Widowed,Management,In-person,Urban,PhD,40872,Part-time,2,7,6,3,1.75,0,5,2.5,25000,2018,78.76807045,2.791580867,Engineering,Urban,High
+STUD_413,24,Male,Widowed,Social Service,Referral,Rural,Bachelor,31524,Unemployed,2,6,7,5,2.08,0,5,2.5,25000,2021,92.90305612,2.179930568,Business,Rural,Low
+STUD_34,25,Female,Single,Journalism,Referral,Rural,Bachelor,106985,Part-time,1,3,6,5,1.14,0,5,2.5,25000,2020,76.21006886,3.400950634,Science,Urban,Low
+STUD_303,21,Male,Divorced,Education,Online,Rural,Bachelor,88249,Employed,8,4,1,5,0.5,1,5,2.5,25000,2020,70.79651998,2.098355901,Science,Urban,Low
+STUD_434,24,Female,Divorced,Journalism,Referral,Rural,Bachelor,89225,Part-time,8,2,0,6,1.89,0,5,2.5,25000,2019,83.64825727,2.384906951,Science,Rural,High
+STUD_381,29,Female,Single,Nursing,Online,Rural,High School,52522,Unemployed,1,4,6,0,2.79,1,5,2.5,25000,2018,68.89540897,3.516473703,Business,Urban,Medium
+STUD_168,20,Male,Single,Technologies,Referral,Rural,Master,31848,Unemployed,6,8,8,5,3.29,0,5,2.5,25000,2019,92.86442282,2.911457833,Arts,Rural,High
+STUD_240,21,Male,Divorced,Management,In-person,Suburban,Master,55437,Employed,6,4,2,4,3.59,1,5,2.5,25000,2019,85.52128801,3.970456741,Engineering,Rural,Medium
+STUD_96,29,Male,Widowed,Journalism,In-person,Urban,Bachelor,34092,Unemployed,2,2,2,3,0.08,0,5,2.5,25000,2019,94.10055076,2.533108555,Engineering,Urban,High
+STUD_104,27,Male,Single,Education,Online,Rural,Bachelor,93915,Unemployed,7,0,6,3,1.34,0,5,2.5,25000,2017,96.66903508,3.131347726,Engineering,Urban,High
+STUD_195,25,Female,Divorced,Agronomy,Referral,Rural,Bachelor,57869,Unemployed,7,0,1,3,2.92,0,5,2.5,25000,2021,75.44925217,2.313687258,Science,Rural,Medium
+STUD_260,19,Female,Married,Technologies,In-person,Urban,Bachelor,25127,Unemployed,7,2,5,2,3.51,1,5,2.5,25000,2018,81.84067687,3.441494825,Arts,Rural,High
+STUD_222,26,Female,Divorced,Agronomy,Referral,Rural,High School,43360,Unemployed,4,3,7,5,2.91,1,5,2.5,25000,2020,66.00687054,2.916951332,Engineering,Urban,Low
+STUD_326,22,Female,Widowed,Design,Referral,Rural,Bachelor,103976,Employed,8,7,2,0,3.4,1,5,2.5,25000,2018,81.4265636,2.274830121,Arts,Rural,Medium
+STUD_85,18,Male,Married,Education,Online,Rural,Bachelor,118573,Part-time,5,7,7,6,0.26,0,5,2.5,25000,2019,73.36153758,2.140177877,Business,Urban,Low
+STUD_118,25,Male,Divorced,Design,Referral,Rural,Master,76272,Part-time,4,6,5,6,3.63,1,5,2.5,25000,2017,80.49413831,2.954747587,Engineering,Rural,Medium
+STUD_262,28,Female,Divorced,Design,Referral,Rural,Bachelor,53028,Employed,5,5,2,2,1.71,0,5,2.5,25000,2018,82.72199083,3.900722353,Science,Urban,Medium
+STUD_389,29,Male,Divorced,Agronomy,Referral,Rural,High School,64586,Unemployed,1,0,5,1,1.97,0,5,2.5,25000,2018,70.3902421,2.420246795,Business,Urban,Low
+STUD_80,25,Male,Widowed,Management,Referral,Suburban,Bachelor,108634,Unemployed,5,6,0,5,0.85,0,5,2.5,25000,2019,98.52990186,2.786264142,Arts,Rural,High
+STUD_278,23,Female,Divorced,Agronomy,Online,Urban,PhD,26425,Unemployed,6,5,0,5,3.78,0,5,2.5,25000,2018,92.39365727,2.470917352,Business,Urban,Low
+STUD_352,19,Male,Single,Nursing,In-person,Suburban,High School,90408,Part-time,5,4,8,1,1.27,0,5,2.5,25000,2018,64.30737202,2.652006924,Engineering,Rural,Low
+STUD_302,29,Male,Divorced,Social Service,In-person,Urban,High School,51889,Part-time,6,3,4,8,2.86,0,5,2.5,25000,2021,74.00230587,3.240248565,Arts,Urban,Medium
+STUD_269,19,Female,Married,Nursing,Referral,Suburban,High School,40967,Employed,2,3,2,7,1.62,0,5,2.5,25000,2019,74.37393528,2.905873634,Engineering,Urban,Medium
+STUD_91,27,Female,Divorced,Journalism,Referral,Urban,High School,72365,Employed,7,3,5,4,3.27,0,5,2.5,25000,2020,87.60408722,2.846279896,Science,Rural,Low
+STUD_111,25,Female,Widowed,Technologies,Online,Urban,Master,47811,Employed,5,3,0,4,3.12,1,5,2.5,25000,2020,86.83264742,3.193810172,Arts,Rural,Low
+STUD_98,18,Male,Married,Nursing,Referral,Urban,Master,101539,Unemployed,5,4,6,4,1.82,1,5,2.5,25000,2017,62.33827622,3.272395703,Science,Rural,High
+STUD_209,19,Male,Married,Social Service,Referral,Suburban,High School,114700,Unemployed,5,1,8,0,3.2,1,5,2.5,25000,2019,79.40761306,3.799677762,Engineering,Urban,High
+STUD_105,22,Female,Divorced,Agronomy,Online,Suburban,Master,117163,Part-time,1,2,4,8,3.97,1,5,2.5,25000,2020,88.25205548,2.000489485,Arts,Rural,Low
+STUD_293,25,Female,Married,Technologies,Referral,Suburban,High School,49694,Employed,1,2,7,1,5.335517776,1,5,2.5,25000,2021,93.40191495,2.520939601,Business,Rural,Medium
+STUD_314,28,Female,Married,Design,Referral,Urban,PhD,110192,Employed,4,0,5,4,2.82,1,5,2.5,25000,2018,76.5608473,2.052484819,Business,Urban,High
+STUD_250,29,Male,Married,Design,In-person,Rural,High School,60516,Part-time,2,7,6,5,2.52,0,5,2.5,25000,2021,60.41359478,2.227905061,Science,Urban,High
+STUD_255,21,Male,Widowed,Education,Online,Urban,High School,71619,Employed,4,1,5,3,,1,5,2.5,25000,2018,74.37553733,3.477634578,Engineering,Rural,Low
+STUD_216,24,Male,Single,Nursing,Online,Rural,Bachelor,73825,Unemployed,1,0,0,3,3.76,0,5,2.5,25000,2021,92.87378184,2.539290384,Science,Rural,High
+STUD_331,28,Male,Married,Management,Online,Rural,Bachelor,77531,Unemployed,7,0,5,3,1.64,1,5,2.5,25000,2017,62.24728923,2.902749072,Business,Rural,High
+STUD_257,21,Male,Married,Design,In-person,Suburban,Bachelor,64917,Unemployed,1,0,7,5,1.01,0,5,2.5,25000,2021,70.60604167,3.711011817,Arts,Urban,Low
+STUD_361,25,Female,Divorced,Nursing,Referral,Suburban,Bachelor,110990,Employed,5,5,6,0,2.61,0,5,2.5,25000,2017,87.58170563,3.252154545,Business,Rural,Low
+STUD_334,19,Male,Widowed,Social Service,In-person,Suburban,Bachelor,28682,Employed,1,0,2,2,0.21,1,5,2.5,25000,2018,63.14533783,2.115483266,Business,Rural,High
+STUD_67,20,Female,Widowed,Agronomy,Referral,Suburban,High School,115978,Part-time,8,6,0,0,3.35,1,5,2.5,25000,2019,95.83583881,3.085353208,Business,Urban,Medium
+STUD_160,27,Female,Widowed,Agronomy,In-person,Urban,Bachelor,64534,Unemployed,7,0,6,5,1.33,1,5,2.5,25000,2017,98.56479209,3.812281139,Engineering,Urban,High
+STUD_259,22,Female,Divorced,Management,Online,Suburban,Bachelor,36588,Part-time,1,3,6,5,4.771569975,1,5,2.5,25000,2021,87.27316625,3.695676043,Engineering,Rural,High
+STUD_72,20,Male,Married,Agronomy,Referral,Urban,Bachelor,88126,Employed,8,7,4,2,3.6,1,5,2.5,25000,2021,62.39736984,2.497682396,Business,Urban,Low
+STUD_359,28,Female,Divorced,Social Service,Online,Urban,Bachelor,87221,Unemployed,3,0,0,3,1.18,1,5,2.5,25000,2020,73.82597753,3.860323388,Science,Rural,High
+STUD_81,30,Female,Married,Journalism,Referral,Suburban,PhD,67658,Unemployed,4,8,6,1,2.75,1,5,2.5,25000,2019,93.84293392,3.673640979,Science,Urban,Low
+STUD_316,24,Male,Divorced,Social Service,Online,Urban,PhD,115011,Unemployed,8,2,3,4,3.06,1,5,2.5,25000,2019,97.42227061,3.463114555,Engineering,Rural,High
+STUD_186,22,Male,Single,Education,Online,Suburban,Bachelor,28306,Unemployed,8,4,7,0,2.75,1,5,2.5,25000,2021,79.91020257,3.390885846,Business,Urban,Medium
+STUD_367,25,Female,Single,Management,Online,Rural,High School,106874,Unemployed,3,1,5,4,2.02,0,5,2.5,25000,2017,91.81961017,3.696154518,Business,Urban,Medium
+STUD_408,19,Male,Widowed,Management,Online,Suburban,Master,61715,Unemployed,8,1,2,5,2.07,0,5,2.5,25000,2018,76.97118442,2.935619925,Science,Rural,Medium
+STUD_457,21,Male,Divorced,Social Service,In-person,Urban,Bachelor,70645,Employed,3,0,4,8,2.7,1,5,2.5,25000,2018,69.56405547,2.962828405,Engineering,Rural,Low
+STUD_183,46,Male,Divorced,Education,In-person,Suburban,Bachelor,33113,Part-time,8,4,7,6,2.57,1,5,2.5,25000,2018,97.58822928,2.882740436,Engineering,Urban,Low
+STUD_375,19,Male,Single,Agronomy,Online,Suburban,Bachelor,110865,Unemployed,1,3,1,3,3.24,1,5,2.5,25000,2019,97.37847222,2.736455639,Science,Rural,Low
+STUD_484,20,Female,Divorced,Technologies,Online,Suburban,Bachelor,90377,Employed,3,5,5,4,3.87,1,5,2.5,25000,2017,71.01060696,2.044358833,Science,Rural,Low
+STUD_266,21,Female,Married,Nursing,Online,Suburban,Master,41734,Unemployed,7,6,8,2,2.58,1,5,2.5,25000,2020,74.1368922,3.360530987,Business,Urban,Low
+STUD_9,19,Male,Single,Journalism,In-person,Suburban,Bachelor,179712,Unemployed,8,7,2,5,3.05,0,5,2.5,25000,2017,90.98899929,5.998934033,Arts,Rural,Low
+STUD_127,23,Male,Single,Technologies,In-person,Suburban,High School,117251,Part-time,2,2,1,1,1.94,1,5,2.5,25000,2021,94.29266942,2.628894436,Arts,Urban,Low
+STUD_489,26,Male,Divorced,Social Service,Online,Rural,High School,23688,Part-time,6,5,3,3,3.85,0,5,2.5,25000,2021,80.7361243,3.479586713,Engineering,Rural,Low
+STUD_212,25,Female,Married,Design,Online,Suburban,Bachelor,109113,Part-time,8,3,5,8,0.41,0,5,2.5,25000,2017,73.31929654,2.007939555,Arts,Rural,High
+STUD_102,22,Male,Single,Technologies,In-person,Urban,Bachelor,87864,Unemployed,2,2,4,5,3.28,0,5,2.5,25000,2020,81.13824386,2.980301725,Business,Urban,High
+STUD_31,22,Male,Single,Nursing,Online,Suburban,High School,45902,Part-time,4,1,1,0,3.37,1,5,2.5,25000,2017,71.39894406,3.869628501,Science,Rural,Medium
+STUD_488,29,Female,Divorced,Technologies,In-person,Suburban,PhD,47500,Part-time,4,8,8,3,1.37,0,5,2.5,25000,2019,73.62793326,2.071757457,Arts,Urban,Low
+STUD_308,29,Female,Widowed,Design,Referral,Urban,PhD,110574,Part-time,3,7,2,1,3.56,0,5,2.5,25000,2018,75.07234153,2.833331878,Engineering,Urban,Low
+STUD_242,19,Female,Married,Agronomy,Online,Rural,Bachelor,115227,Employed,4,1,7,7,3.19,0,5,2.5,25000,2021,73.29714887,3.760370481,Arts,Urban,High
+STUD_207,22,Female,Single,Education,In-person,Suburban,High School,38167,Unemployed,1,0,8,4,3.49,1,5,2.5,25000,2018,68.21628746,3.547588794,Science,Rural,Low
+STUD_152,22,Female,Married,Management,In-person,Urban,High School,112716,Employed,6,7,1,7,1.08,0,5,2.5,25000,2019,64.50235502,2.985803141,Engineering,Rural,High
+STUD_458,24,Male,Widowed,Technologies,In-person,Suburban,Bachelor,65735,Part-time,4,1,7,5,1.94,1,5,2.5,25000,2019,60.82506977,3.728984401,Engineering,Urban,Low
+STUD_179,29,Female,Widowed,Social Service,Online,Rural,Bachelor,42594,Employed,5,5,3,2,3.35,1,5,2.5,25000,2019,75.2181735,2.766963457,Science,Urban,High
+STUD_223,23,Male,Single,Management,Referral,Urban,Master,48853,Part-time,3,0,1,8,3.17,0,5,2.5,25000,2018,70.96656294,3.370669868,Arts,Urban,Low
+STUD_101,23,Male,Widowed,Education,Referral,Suburban,PhD,63049,Unemployed,7,5,1,8,1.35,1,5,2.5,25000,2017,84.47814378,3.736909283,Science,Urban,Medium
+STUD_322,27,Male,Widowed,Technologies,Online,Rural,Master,76359,Employed,6,1,5,2,0.55,1,5,2.5,25000,2018,84.21493944,3.818338546,Arts,Rural,Medium
+STUD_252,29,Male,Married,Agronomy,Online,Urban,PhD,70294,Unemployed,2,0,0,8,1.03,0,5,2.5,25000,2021,94.53238348,2.774207507,Science,Rural,Medium
+STUD_245,20,Male,Divorced,Social Service,Referral,Urban,High School,104651,Employed,2,5,2,0,3.82,1,5,2.5,25000,2019,77.87185326,2.036254013,Engineering,Rural,Medium
+STUD_151,29,Male,Married,Nursing,Referral,Rural,Master,59828,Part-time,1,2,6,6,5.180011622,1,5,2.5,25000,2018,71.05990437,2.686904933,Science,Rural,Low
+STUD_297,26,Male,Married,Education,In-person,Urban,PhD,115389,Employed,6,8,5,3,0.77,0,5,2.5,25000,2017,67.31196223,2.09065608,Engineering,Urban,High
+STUD_233,30,Male,Widowed,Technologies,In-person,Rural,Master,40616,Employed,3,1,2,5,3.58,1,5,2.5,25000,2020,77.10913506,2.837863884,Science,Urban,Medium
+STUD_37,29,Female,Widowed,Technologies,In-person,Suburban,Bachelor,116010,Part-time,1,1,3,5,1.42,0,5,2.5,25000,2021,62.09919092,2.103163097,Arts,Urban,Medium
+STUD_423,30,Male,Single,Technologies,Referral,Rural,PhD,75494,Unemployed,8,0,1,0,1.19,1,5,2.5,25000,2019,78.88401004,3.759788417,Business,Urban,Medium
+STUD_46,19,Male,Single,Agronomy,In-person,Rural,Bachelor,82756,Employed,4,5,3,7,2.85,0,5,2.5,25000,2018,71.65802905,3.124556901,Engineering,Urban,High
+STUD_97,20,Male,Single,Social Service,Online,Suburban,Bachelor,42215,Employed,6,4,1,3,0.21,1,5,2.5,25000,2020,99.08787127,3.50388554,Business,Rural,Low
+STUD_100,28,Male,Single,Technologies,In-person,Suburban,Bachelor,51232,Employed,7,1,2,6,3.31,0,5,2.5,25000,2019,97.68649747,2.545224502,Business,Urban,Medium
+STUD_451,30,Female,Single,Agronomy,In-person,Suburban,Master,41890,Employed,7,0,4,3,1.36,0,5,2.5,25000,2021,72.15756463,2.913561358,Business,Urban,Low
+STUD_440,29,Male,Widowed,Technologies,In-person,Rural,High School,63772,Unemployed,2,0,0,7,3.66,0,5,2.5,25000,2020,68.98169002,2.735588496,Arts,Rural,Medium
+STUD_70,26,Male,Single,Agronomy,Online,Rural,PhD,80648,Unemployed,7,7,8,2,2.14,0,5,2.5,25000,2020,60.75334173,3.603614971,Business,Rural,Medium
+STUD_451,30,Female,Single,Agronomy,In-person,Suburban,Master,41890,Employed,7,0,4,3,1.36,0,5,2.5,25000,2021,72.15756463,2.913561358,Business,Urban,Low
+STUD_365,18,Male,Widowed,Social Service,Online,Urban,Bachelor,119063,Employed,0,5,2,7,5.766594135,0,5,2.5,25000,2018,67.18735649,3.143302702,Science,Urban,Medium
+STUD_113,25,Female,Married,Social Service,In-person,Suburban,Bachelor,70681,Employed,7,8,6,2,2.95,0,5,2.5,25000,2017,73.4231283,2.511843528,Engineering,Urban,High
+STUD_44,23,Male,Widowed,Nursing,Referral,Rural,Master,64686,Employed,8,5,8,4,1.95,0,5,2.5,25000,2021,84.06757124,2.105237032,Arts,Rural,High
+STUD_271,25,Female,Widowed,Technologies,Referral,Suburban,High School,44439,Employed,2,4,3,4,3.63,0,5,2.5,25000,2019,62.22711895,2.056600971,Engineering,Urban,Low
+STUD_300,21,Male,Widowed,Nursing,Referral,Rural,High School,21788,Employed,2,6,7,2,1.11,1,5,2.5,25000,2021,70.03762925,2.507244713,Business,Rural,Low
+STUD_238,18,Male,Single,Agronomy,Online,Suburban,Bachelor,65665,Unemployed,4,1,7,2,1.55,1,5,2.5,25000,2021,99.91266966,2.473398466,Science,Urban,Medium
+STUD_301,26,Female,Single,Journalism,Referral,Rural,Bachelor,34166,Part-time,0,4,6,8,5.275252401,0,5,2.5,25000,2018,98.39922525,2.729210042,Science,Rural,Low
+STUD_380,28,Female,Single,Technologies,Online,Suburban,Bachelor,72086,Unemployed,7,6,7,7,2.16,0,5,2.5,25000,2018,95.4634535,2.254884015,Science,Urban,High
+STUD_200,24,Male,Widowed,Nursing,Referral,Suburban,PhD,59252,Part-time,8,5,8,4,3.25,0,5,2.5,25000,2020,93.60577385,2.080888026,Engineering,Urban,Low
+STUD_436,29,Male,Married,Management,In-person,Urban,Master,34561,Employed,0,6,7,3,5.796321517,0,5,2.5,25000,2018,92.89242749,2.580148488,Science,Rural,High
+STUD_249,28,Female,Widowed,Technologies,Online,Urban,PhD,36850,Part-time,8,3,7,0,0.43,1,5,2.5,25000,2019,78.96540965,3.281838609,Engineering,Urban,Low
+STUD_263,21,Male,Divorced,Agronomy,Online,Urban,High School,67171,Part-time,8,1,3,1,3.08,1,5,2.5,25000,2019,71.66039022,3.468034166,Arts,Urban,High
+STUD_157,30,Male,Divorced,Design,Online,Rural,PhD,118741,Part-time,1,2,0,4,5.03115097,0,5,2.5,25000,2019,85.73117885,3.815411567,Science,Rural,Medium
+STUD_103,23,Male,Single,Management,In-person,Suburban,Bachelor,105228,Unemployed,1,4,6,7,2.5,0,5,2.5,25000,2018,86.80701908,3.538012643,Engineering,Urban,Medium
+STUD_281,25,Female,Single,Nursing,In-person,Rural,Master,75495,Part-time,3,7,7,0,3.84,1,5,2.5,25000,2019,79.175297,2.238794753,Science,Rural,Low
+STUD_251,24,Male,Single,Social Service,In-person,Suburban,Bachelor,63352,Unemployed,1,4,1,8,1.33,0,5,2.5,25000,2020,89.0791606,2.055640352,Business,Urban,Medium
+STUD_95,45,Female,Single,Nursing,In-person,Rural,Master,28896,Unemployed,4,6,0,2,1.99,1,5,2.5,25000,2019,71.05712605,3.805970692,Business,Rural,Low
+STUD_16,25,Female,Married,Social Service,In-person,Urban,High School,58843,Part-time,4,1,1,6,1.4,1,5,2.5,25000,2019,91.99168226,2.60238228,Arts,Urban,Low
+STUD_323,27,Female,Married,Social Service,Referral,Urban,Bachelor,62967,Part-time,7,2,0,4,1.88,1,5,2.5,25000,2021,86.93848309,3.543246679,Engineering,Urban,Medium
+STUD_116,24,Female,Single,Education,Referral,Urban,PhD,101410,Part-time,8,2,8,2,3.15,0,5,2.5,25000,2018,98.38848487,2.441958122,Business,Urban,Low
+STUD_24,25,Male,Widowed,Technologies,Online,Rural,Master,99053,Employed,2,4,6,1,1.04,1,5,2.5,25000,2017,88.86119053,3.608208851,Business,Urban,Low
+STUD_399,29,Male,Married,Design,Online,Suburban,Master,42340,Employed,6,4,0,5,0.22,1,5,2.5,25000,2018,82.02421682,3.337404584,Science,Rural,Medium
+STUD_273,28,Male,Married,Management,Referral,Urban,High School,66547,Unemployed,2,8,6,4,1.77,0,5,2.5,25000,2017,66.16790512,3.999289355,Business,Urban,High
+STUD_268,18,Male,Divorced,Management,In-person,Urban,High School,37666,Employed,6,6,6,5,1.62,0,5,2.5,25000,2018,63.05766152,3.467676598,Science,Rural,Low
+STUD_345,18,Male,Widowed,Nursing,Online,Urban,High School,102417,Unemployed,8,0,3,2,2.2,1,5,2.5,25000,2019,60.42032116,2.852312827,Engineering,Urban,Low
+STUD_327,23,Male,Divorced,Technologies,In-person,Suburban,Bachelor,36779,Part-time,8,2,3,0,1.74,0,5,2.5,25000,2019,73.09189986,3.42348792,Science,Urban,Low
+STUD_172,20,Female,Married,Journalism,Online,Urban,Bachelor,119083,Employed,7,2,1,7,1.99,0,5,2.5,25000,2019,88.80370177,3.798792349,Business,Urban,High
+STUD_490,20,Male,Widowed,Nursing,Referral,Suburban,Bachelor,48893,Part-time,4,4,3,1,0.71,0,5,2.5,25000,2020,70.46881209,3.569048627,Engineering,Rural,High
+STUD_114,26,Female,Divorced,Management,Referral,Urban,Master,102656,Unemployed,8,7,0,6,1.62,1,5,2.5,25000,2020,67.15451763,2.973203233,Business,Rural,Medium
+STUD_387,28,Female,Married,Agronomy,In-person,Rural,PhD,44287,Unemployed,7,5,4,5,3.54,0,5,2.5,25000,2017,60.92177697,3.773559564,Arts,Rural,Low
+STUD_288,23,Female,Single,Agronomy,In-person,Rural,High School,82075,Part-time,8,1,1,3,3.05,0,5,2.5,25000,2018,87.01637087,2.36081357,Arts,Rural,High
+STUD_14,22,Female,Married,Technologies,Referral,Rural,Bachelor,10360.5,Employed,4,3,5,0,2.29,0,5,2.5,25000,2019,93.59710828,1.000244742,Business,Rural,Low
+STUD_492,21,Male,Divorced,Design,Online,Rural,Bachelor,95609,Part-time,5,3,4,6,2.08,0,5,2.5,25000,2019,92.57102497,3.48200816,Science,Rural,High
+STUD_54,20,Female,Single,Agronomy,Referral,Suburban,Bachelor,45313,Employed,3,5,7,0,2.38,1,5,2.5,25000,2018,97.04430554,2.4849028,Engineering,Urban,Medium
+STUD_189,30,Male,Married,Education,Online,Suburban,Master,115438,Employed,4,2,3,2,0.65,1,5,2.5,25000,2019,72.33282263,2.104155597,Science,Urban,Medium
+STUD_86,27,Male,Single,Design,Online,Suburban,High School,95091,Unemployed,2,8,3,3,3.77,0,5,2.5,25000,2018,99.55625114,3.971208124,Arts,Urban,Low
+STUD_392,19,Male,Single,Journalism,Referral,Urban,High School,85091,Unemployed,4,6,4,8,3.06,1,5,2.5,25000,2021,73.82616591,3.808029671,Business,Rural,High
+STUD_231,30,Male,Married,Management,Referral,Rural,Master,94219,Part-time,8,4,6,7,2.76,0,5,2.5,25000,2021,84.98142087,2.361742527,Business,Urban,Medium
+STUD_283,27,Male,Divorced,Social Service,Referral,Suburban,Bachelor,29816,Unemployed,2,6,3,8,0.01,1,5,2.5,25000,2017,67.49599999,2.637924927,Engineering,Rural,Low
+STUD_123,26,Male,Married,Nursing,In-person,Suburban,Bachelor,43571,Unemployed,8,7,2,2,0.95,0,5,2.5,25000,2020,68.79518527,2.545117768,Arts,Rural,Medium
+STUD_36,27,Male,Divorced,Nursing,Online,Suburban,Bachelor,105248,Employed,2,8,2,0,0.54,1,5,2.5,25000,2019,66.44943508,3.616765814,Business,Urban,Low
+STUD_108,28,Female,Single,Design,Online,Urban,Bachelor,83142,Part-time,7,8,1,5,1.76,1,5,2.5,25000,2021,97.89449162,2.233234113,Business,Urban,Low
+STUD_480,28,Male,Married,Design,Referral,Suburban,Bachelor,95918,Unemployed,3,8,0,4,1.67,0,5,2.5,25000,2021,91.97426441,3.687446356,Business,Rural,Medium
+STUD_340,27,Male,Married,Nursing,Referral,Suburban,High School,43123,Unemployed,1,4,2,7,2.79,1,5,2.5,25000,2018,86.85902052,2.201531977,Science,Rural,High
+STUD_20,30,Female,Married,Nursing,Online,Urban,High School,85634,Part-time,8,7,3,0,3.48,0,5,2.5,25000,2020,84.63845172,2.376614022,Engineering,Urban,High
+STUD_355,25,Male,Single,Technologies,Online,Suburban,High School,74467,Unemployed,6,0,8,3,0.13,0,5,2.5,25000,2021,98.28559372,2.913360481,Business,Urban,Medium
+STUD_66,18,Female,Married,Agronomy,In-person,Rural,High School,106081,Unemployed,1,2,2,5,5.802279567,0,5,2.5,25000,2020,99.58437242,2.113732326,Arts,Rural,Low
+STUD_138,30,Male,Married,Journalism,Online,Rural,Bachelor,89679,Unemployed,6,0,2,7,0.48,0,5,2.5,25000,2020,61.70393355,3.230530378,Science,Rural,Low
+STUD_464,23,Male,Single,Technologies,In-person,Suburban,Bachelor,59701,Employed,5,2,1,4,2.18,1,5,2.5,25000,2018,69.20750629,2.598538619,Engineering,Urban,High
+STUD_78,30,Male,Single,Agronomy,Referral,Suburban,Bachelor,62434,Unemployed,2,6,8,1,3.77,0,5,2.5,25000,2018,87.70090048,2.014814305,Business,Rural,High
+STUD_187,25,Female,Divorced,Technologies,In-person,Rural,High School,40051,Part-time,2,1,5,8,3.4,1,5,2.5,25000,2017,86.03386902,2.089647642,Business,Rural,Low
+STUD_428,30,Female,Widowed,Education,Referral,Rural,Bachelor,84467,Part-time,3,4,8,1,1.12,1,5,2.5,25000,2020,80.25962905,3.375528259,Arts,Rural,High
+STUD_89,27,Male,Single,Social Service,Referral,Rural,Bachelor,68819,Unemployed,2,6,4,3,1.71,0,5,2.5,25000,2021,83.1924945,3.254748816,Business,Rural,High
+STUD_134,21,Female,Divorced,Management,Referral,Urban,Bachelor,47648,Part-time,5,2,7,4,0.32,1,5,2.5,25000,2021,82.09525592,3.52430113,Arts,Urban,Medium
+STUD_387,28,Female,Married,Agronomy,In-person,Rural,PhD,44287,Unemployed,7,5,4,5,3.54,0,5,2.5,25000,2017,60.92177697,3.773559564,Arts,Rural,Low
+STUD_6,18,Male,Widowed,Agronomy,In-person,Rural,Bachelor,10360.5,Part-time,4,7,7,2,1.41,0,5,2.5,25000,2020,68.69164098,1.000244742,Science,Rural,Medium
+STUD_485,27,Female,Divorced,Technologies,Referral,Suburban,Bachelor,26756,Employed,2,3,2,6,2.39,0,5,2.5,25000,2018,69.10249455,3.841380641,Arts,Urban,High
+STUD_418,45,Female,Single,Technologies,Referral,Rural,Bachelor,63722,Part-time,6,1,0,4,2.06,1,5,2.5,25000,2018,93.39702047,2.848821539,Business,Urban,High
+STUD_311,22,Male,Single,Journalism,In-person,Urban,Bachelor,79744,Part-time,5,8,1,0,2.88,1,5,2.5,25000,2017,94.96116163,3.205842052,Science,Urban,Medium
+STUD_443,22,Female,Divorced,Management,Online,Urban,Bachelor,51390,Unemployed,3,6,7,6,3.07,0,5,2.5,25000,2017,80.19817346,2.220832736,Business,Urban,Medium
+STUD_75,18,Female,Married,Education,Referral,Suburban,PhD,103523,Unemployed,6,7,7,5,0.62,1,5,2.5,25000,2019,84.13332835,3.788520015,Engineering,Rural,Medium
+STUD_362,19,Male,Divorced,Nursing,Referral,Suburban,Master,31464,Part-time,2,6,8,7,,1,5,2.5,25000,2019,94.97409224,3.595825847,Engineering,Urban,High
+STUD_351,28,Female,Single,Management,Referral,Urban,Master,100963,Employed,8,5,7,7,1.7,1,5,2.5,25000,2019,80.6839152,3.522932339,Arts,Urban,Low
+STUD_211,30,Female,Divorced,Social Service,In-person,Urban,Bachelor,72032,Part-time,4,0,3,0,1.89,1,5,2.5,25000,2020,71.45382785,2.420370548,Engineering,Rural,Low
+STUD_370,30,Male,Divorced,Management,In-person,Urban,Master,40974,Employed,6,2,1,3,2.84,0,5,2.5,25000,2020,71.96387199,2.296490838,Science,Rural,High
+STUD_84,19,Male,Single,Journalism,Referral,Rural,Master,106014,Part-time,1,3,2,4,2.14,0,5,2.5,25000,2018,66.79384094,2.654143596,Science,Rural,High
+STUD_341,20,Male,Married,Technologies,In-person,Rural,Bachelor,100561,Employed,3,2,0,4,3.65,0,5,2.5,25000,2019,81.93705102,3.487599429,Engineering,Rural,Medium
+STUD_119,21,Female,Single,Technologies,In-person,Suburban,High School,37236,Part-time,1,1,1,2,1.36,1,5,2.5,25000,2018,63.64339604,3.1819569,Science,Urban,Medium
+STUD_439,24,Male,Married,Social Service,In-person,Urban,Bachelor,57875,Part-time,2,8,5,3,0.62,1,5,2.5,25000,2020,72.94353501,3.942166779,Arts,Urban,High
+STUD_7,23,Male,Widowed,Agronomy,Online,Suburban,Master,179712,Part-time,7,4,7,5,2.57,1,5,2.5,25000,2017,65.73563181,5.998934033,Science,Urban,Low
+STUD_487,29,Male,Single,Design,Referral,Suburban,Bachelor,84780,Part-time,7,7,3,0,1.08,1,5,2.5,25000,2020,96.19879686,3.928510827,Arts,Urban,High
+STUD_415,24,Male,Single,Agronomy,In-person,Urban,Bachelor,53343,Employed,5,6,7,8,3.25,1,5,2.5,25000,2021,61.69484187,2.790461789,Business,Urban,Low
+STUD_139,29,Male,Married,Social Service,Referral,Rural,High School,107988,Unemployed,8,8,0,4,0.61,1,5,2.5,25000,2019,84.92603179,2.135439695,Arts,Urban,Medium
+STUD_237,22,Male,Married,Journalism,In-person,Urban,PhD,20721,Unemployed,3,6,7,5,0.46,1,5,2.5,25000,2017,97.37407799,2.181463871,Business,Urban,Medium
+STUD_56,30,Male,Married,Management,In-person,Urban,Master,86382,Unemployed,4,0,6,0,0.37,1,5,2.5,25000,2017,85.17062156,3.79247386,Arts,Urban,Medium
+STUD_93,22,Female,Divorced,Journalism,Online,Urban,High School,62454,Part-time,2,6,3,0,0.8,0,5,2.5,25000,2019,73.43517642,2.846373739,Science,Rural,Low
+STUD_350,18,Female,Widowed,Design,Referral,Rural,PhD,26685,Unemployed,6,7,5,4,2.67,0,5,2.5,25000,2019,62.61748214,3.441939306,Science,Urban,Low
+STUD_203,26,Female,Divorced,Technologies,Referral,Suburban,PhD,23598,Employed,1,6,4,6,3.46,0,5,2.5,25000,2020,72.66690022,3.291676185,Arts,Urban,Low
+STUD_247,23,Female,Widowed,Nursing,Referral,Suburban,Bachelor,111765,Employed,4,3,5,7,0.17,0,5,2.5,25000,2018,77.45411204,3.389531792,Engineering,Urban,Medium
+STUD_442,24,Male,Widowed,Technologies,Online,Suburban,PhD,35920,Unemployed,1,5,0,6,3.31,0,5,2.5,25000,2017,75.94083225,2.434060048,Arts,Urban,Low
+STUD_148,29,Male,Widowed,Journalism,Online,Rural,High School,46138,Unemployed,7,8,6,6,3.97,1,5,2.5,25000,2019,71.78949983,3.345124413,Arts,Rural,Medium
+STUD_32,24,Female,Divorced,Design,Referral,Rural,High School,45670,Unemployed,6,4,2,1,2.48,1,5,2.5,25000,2017,85.4239504,2.660407498,Business,Urban,Medium
+STUD_65,21,Male,Single,Nursing,In-person,Rural,Master,31052,Part-time,8,8,5,2,0.73,0,5,2.5,25000,2018,74.57712261,3.216776617,Engineering,Rural,Low
+STUD_456,22,Female,Single,Technologies,In-person,Rural,PhD,47572,Unemployed,3,4,4,4,2.72,0,5,2.5,25000,2020,88.68015223,2.859243458,Engineering,Rural,Low
+STUD_315,29,Female,Married,Journalism,Online,Rural,Master,81513,Employed,4,3,0,6,1.47,1,5,2.5,25000,2020,78.10636107,2.624653073,Engineering,Urban,High
+STUD_83,21,Female,Married,Nursing,Online,Urban,High School,91187,Part-time,3,6,2,4,1.09,0,5,2.5,25000,2017,79.61355259,3.846520163,Business,Rural,Medium
+STUD_378,28,Female,Divorced,Agronomy,Online,Urban,High School,34420,Unemployed,4,4,4,2,3.06,1,5,2.5,25000,2017,80.12504777,2.469536428,Arts,Urban,Low
+STUD_477,23,Female,Divorced,Journalism,Online,Rural,Bachelor,22746,Part-time,6,0,6,5,2.18,1,5,2.5,25000,2021,77.7487584,2.369299396,Engineering,Urban,Low
+STUD_26,27,Male,Married,Technologies,In-person,Urban,Master,64703,Employed,2,4,3,7,0.91,0,5,2.5,25000,2021,97.52194315,2.540784725,Engineering,Rural,High
+STUD_169,21,Male,Divorced,Nursing,Referral,Suburban,Bachelor,110360,Part-time,3,5,7,5,0.4,0,5,2.5,25000,2020,84.85420424,3.249886365,Business,Urban,High
+STUD_219,22,Male,Divorced,Journalism,Referral,Rural,Bachelor,79349,Part-time,1,8,2,7,1.37,0,5,2.5,25000,2020,65.82037056,3.450990534,Arts,Rural,Low
+STUD_5,26,Male,Married,Agronomy,Online,Rural,Master,179712,Part-time,2,3,4,3,2.5,0,5,2.5,25000,2017,62.98660528,5.998934033,Arts,Rural,Medium
+STUD_47,28,Female,Divorced,Social Service,Referral,Urban,PhD,69521,Employed,7,3,4,5,2.14,1,5,2.5,25000,2017,98.65711558,2.154869752,Engineering,Rural,Low
+STUD_267,20,Female,Married,Education,Referral,Suburban,Bachelor,91650,Part-time,6,2,3,6,0.34,1,5,2.5,25000,2020,95.62131496,2.666590477,Science,Urban,High
+STUD_12,18,Male,Widowed,Technologies,In-person,Suburban,PhD,10360.5,Employed,3,1,8,7,0.3,0,5,2.5,25000,2021,81.1271263,1.000244742,Arts,Rural,Low
+STUD_218,25,Female,Married,Journalism,Online,Rural,Bachelor,87109,Part-time,6,3,3,7,0.91,1,5,2.5,25000,2021,88.9106193,2.415146469,Business,Rural,Medium
+STUD_453,28,Male,Widowed,Management,In-person,Rural,PhD,42566,Part-time,7,6,7,5,0.72,1,5,2.5,25000,2020,96.18295658,3.395689033,Business,Urban,High
+STUD_143,25,Female,Single,Technologies,In-person,Urban,Bachelor,74723,Unemployed,8,2,8,6,0.5,0,5,2.5,25000,2017,79.11679463,2.124708466,Business,Urban,High
+STUD_227,21,Male,Married,Agronomy,In-person,Suburban,Master,70085,Employed,5,7,7,1,1.96,1,5,2.5,25000,2020,61.49242694,3.479248054,Science,Rural,Medium
+STUD_48,30,Male,Single,Nursing,Referral,Urban,Bachelor,93861,Unemployed,2,6,0,2,2.37,1,5,2.5,25000,2019,92.98222318,2.546707359,Business,Urban,Medium
+STUD_202,22,Female,Widowed,Journalism,Referral,Rural,Bachelor,71353,Unemployed,5,1,2,7,1.37,0,5,2.5,25000,2021,87.92516851,2.457189723,Science,Rural,Low
+STUD_94,23,Female,Widowed,Journalism,Online,Rural,Bachelor,47329,Unemployed,4,0,8,5,0.58,0,5,2.5,25000,2021,98.21082214,2.37881434,Engineering,Rural,High
+STUD_161,19,Male,Divorced,Design,Referral,Rural,PhD,47888,Employed,5,4,2,4,2.54,1,5,2.5,25000,2020,86.72059292,3.977500045,Business,Rural,Medium
+STUD_343,22,Female,Divorced,Management,Online,Urban,PhD,52102,Part-time,1,4,5,1,1.25,0,5,2.5,25000,2021,97.50693008,3.049432982,Science,Urban,Medium
+STUD_312,22,Male,Single,Journalism,Referral,Rural,PhD,22550,Employed,2,0,2,8,0.08,1,5,2.5,25000,2020,79.23708064,3.673991163,Arts,Rural,Medium
+STUD_61,19,Female,Single,Education,Referral,Suburban,Bachelor,99836,Unemployed,4,6,1,0,3.57,1,5,2.5,25000,2021,61.77211486,3.861479978,Engineering,Urban,High
+STUD_30,30,Female,Widowed,Education,Online,Rural,High School,97166,Unemployed,1,7,8,8,5.603448359,0,5,2.5,25000,2018,94.96024896,2.593132118,Arts,Urban,Medium
+STUD_192,26,Female,Divorced,Technologies,In-person,Suburban,Bachelor,119411,Unemployed,4,4,4,7,2.14,1,5,2.5,25000,2020,89.26506109,3.215196101,Engineering,Urban,Medium
+STUD_498,23,Female,Divorced,Education,In-person,Suburban,Bachelor,58390,Unemployed,2,6,3,5,0.11,1,5,2.5,25000,2018,69.31052176,2.423464963,Science,Urban,Medium
+STUD_153,24,Male,Married,Social Service,In-person,Suburban,Bachelor,92461,Unemployed,3,0,5,8,2.13,0,5,2.5,25000,2020,67.7857292,2.863950931,Business,Urban,High
+STUD_142,19,Female,Married,Nursing,Referral,Rural,Bachelor,25910,Employed,1,5,4,8,5.468586623,1,5,2.5,25000,2021,60.99630312,3.686338105,Arts,Urban,High
+STUD_472,25,Male,Single,Agronomy,In-person,Rural,PhD,89348,Employed,1,3,0,1,2.33,1,5,2.5,25000,2018,87.01716776,3.472334607,Engineering,Rural,Low
+STUD_175,30,Male,Married,Social Service,In-person,Rural,PhD,76526,Part-time,7,4,3,8,2.53,1,5,2.5,25000,2017,72.31788001,2.567676271,Science,Rural,Medium
+STUD_13,25,Male,Single,Nursing,In-person,Urban,Bachelor,179712,Part-time,8,8,6,6,1.55,0,5,2.5,25000,2019,89.5805165,5.998934033,Business,Urban,High
+STUD_213,20,Male,Divorced,Journalism,Online,Suburban,High School,102802,Part-time,2,0,5,3,0.78,0,5,2.5,25000,2021,76.46416561,2.285472436,Business,Urban,Medium
+STUD_264,29,Female,Divorced,Technologies,In-person,Rural,Bachelor,27219,Unemployed,8,1,5,1,0.87,1,5,2.5,25000,2017,92.71950657,3.598418042,Engineering,Urban,High
+STUD_82,25,Female,Divorced,Technologies,Referral,Rural,High School,57459,Part-time,4,7,1,6,1.65,0,5,2.5,25000,2021,75.47024659,2.430590632,Science,Rural,Medium
+STUD_126,30,Female,Divorced,Journalism,In-person,Suburban,PhD,42416,Unemployed,8,6,8,4,3.7,0,5,2.5,25000,2018,61.95253611,2.394466922,Arts,Urban,Medium
+STUD_185,23,Male,Divorced,Social Service,Online,Suburban,Bachelor,109376,Unemployed,1,4,8,7,5.437596177,0,5,2.5,25000,2020,85.15614549,2.515360119,Business,Rural,Low
+STUD_325,24,Male,Married,Nursing,Online,Rural,Bachelor,46010,Part-time,6,7,6,7,2.57,1,5,2.5,25000,2020,89.78430772,3.258639463,Arts,Urban,High
+STUD_77,27,Male,Married,Education,Referral,Rural,Bachelor,49424,Employed,6,0,6,8,2.43,0,5,2.5,25000,2020,92.79307493,2.315221325,Business,Rural,Medium
+STUD_120,29,Female,Widowed,Design,Referral,Rural,Bachelor,69938,Part-time,3,0,6,7,2.27,0,5,2.5,25000,2017,67.28659775,3.696797097,Business,Urban,Low
+STUD_224,27,Female,Widowed,Management,Referral,Urban,Bachelor,61384,Employed,1,5,5,8,0.04,0,5,2.5,25000,2018,87.86279089,3.256775576,Engineering,Rural,High
+STUD_463,24,Female,Widowed,Design,Online,Suburban,PhD,27706,Unemployed,1,8,1,4,1.91,0,5,2.5,25000,2019,68.24084997,2.807253613,Science,Rural,Medium
+STUD_226,26,Female,Married,Education,In-person,Rural,Bachelor,119808,Employed,4,8,6,7,2.04,1,5,2.5,25000,2021,84.32634839,3.612796475,Business,Urban,Medium
+STUD_379,22,Female,Married,Technologies,Referral,Suburban,High School,95400,Employed,8,4,2,2,3.68,0,5,2.5,25000,2018,68.30431383,2.532783225,Science,Urban,High
+STUD_11,30,Female,Married,Agronomy,Online,Suburban,High School,179712,Unemployed,8,3,7,8,1.1,1,5,2.5,25000,2020,76.44801502,5.998934033,Arts,Urban,Medium
+STUD_82,25,Female,Divorced,Technologies,Referral,Rural,High School,57459,Part-time,4,7,1,6,1.65,0,5,2.5,25000,2021,75.47024659,2.430590632,Science,Rural,Medium
+STUD_156,24,Male,Married,Agronomy,In-person,Suburban,PhD,102241,Part-time,1,1,3,2,0.93,1,5,2.5,25000,2019,70.12998173,3.208935917,Engineering,Rural,High
+STUD_122,23,Female,Single,Nursing,Referral,Suburban,PhD,78472,Employed,8,2,1,8,2.66,0,5,2.5,25000,2018,90.71436451,2.32009829,Engineering,Urban,Medium
+STUD_71,19,Female,Divorced,Nursing,Online,Urban,High School,118657,Employed,5,3,4,8,2.39,1,5,2.5,25000,2017,71.99692684,2.441553035,Arts,Urban,Low
+STUD_432,19,Female,Single,Agronomy,In-person,Rural,PhD,46623,Unemployed,8,1,6,7,2.14,1,5,2.5,25000,2017,71.98801215,3.619432786,Engineering,Urban,Low
+STUD_414,28,Male,Married,Journalism,Online,Rural,Master,57209,Unemployed,8,8,1,1,1.08,0,5,2.5,25000,2018,65.36757675,3.673314262,Business,Rural,Low
+STUD_310,21,Male,Widowed,Agronomy,Online,Urban,Master,85499,Part-time,6,1,4,5,0.76,1,5,2.5,25000,2019,91.2694037,3.985940836,Arts,Rural,Medium
+STUD_117,20,Female,Single,Education,In-person,Rural,PhD,31260,Part-time,8,0,5,4,3.36,1,5,2.5,25000,2021,82.30245877,2.27210309,Science,Rural,Low
+STUD_360,19,Male,Married,Technologies,Referral,Urban,PhD,35181,Part-time,7,7,6,8,0.8,1,5,2.5,25000,2018,68.72667981,2.070673782,Engineering,Rural,Medium
+STUD_225,29,Male,Divorced,Design,Referral,Suburban,Bachelor,21545,Part-time,6,6,7,8,0.41,1,5,2.5,25000,2021,96.23503007,3.646622853,Arts,Urban,High
+STUD_25,26,Female,Divorced,Social Service,Online,Urban,Bachelor,116214,Employed,3,2,0,0,3.12,1,5,2.5,25000,2018,77.11855586,3.148561237,Arts,Urban,Low
+STUD_147,18,Male,Divorced,Design,Online,Rural,Bachelor,117620,Unemployed,5,3,6,2,0.66,1,5,2.5,25000,2021,65.94011427,3.768544051,Engineering,Rural,Low
+STUD_481,20,Male,Single,Nursing,In-person,Rural,Master,21746,Unemployed,6,6,2,6,3.77,0,5,2.5,25000,2020,85.85440188,2.941995961,Arts,Rural,High
+STUD_35,21,Male,Married,Journalism,Referral,Rural,High School,114786,Part-time,5,3,2,7,1.26,0,5,2.5,25000,2019,89.66119285,3.519883596,Engineering,Rural,Low
+STUD_128,24,Female,Divorced,Education,Online,Rural,High School,72928,Employed,8,7,7,0,1.13,0,5,2.5,25000,2018,78.13898716,3.561157371,Business,Urban,Medium
+STUD_256,25,Female,Married,Education,In-person,Urban,Master,110641,Employed,2,7,8,4,0.42,1,5,2.5,25000,2019,72.83425951,3.082519781,Science,Urban,High
+STUD_18,19,Male,Divorced,Management,Referral,Urban,PhD,85758,Part-time,5,2,0,1,0.26,0,5,2.5,25000,2018,83.38314804,3.638130862,Science,Rural,Low
+STUD_282,22,Male,Married,Education,In-person,Suburban,Bachelor,116419,Unemployed,5,3,4,3,2.85,1,5,2.5,25000,2017,62.67832996,2.836453107,Science,Rural,Low
+STUD_460,27,Male,Single,Design,In-person,Suburban,High School,86606,Part-time,5,1,7,2,0.66,0,5,2.5,25000,2018,73.69057713,2.096670229,Science,Rural,Low
+STUD_475,25,Male,Divorced,Design,In-person,Rural,PhD,31927,Unemployed,4,6,8,3,1.04,1,5,2.5,25000,2021,90.85698005,2.555816532,Engineering,Rural,High
+STUD_197,25,Male,Widowed,Nursing,In-person,Rural,High School,99102,Employed,1,0,3,1,2.14,1,5,2.5,25000,2021,96.40754171,3.454791986,Business,Rural,Low
+STUD_280,26,Male,Widowed,Design,In-person,Urban,Bachelor,26490,Part-time,1,4,0,5,0.83,0,5,2.5,25000,2018,64.46683186,3.748839044,Arts,Rural,Low
+STUD_493,22,Female,Widowed,Journalism,In-person,Rural,High School,58169,Part-time,1,4,0,8,5.905523166,1,5,2.5,25000,2018,73.05207432,3.067351358,Business,Urban,High
+STUD_194,20,Male,Widowed,Technologies,In-person,Suburban,Bachelor,84539,Employed,7,5,4,1,3,0,5,2.5,25000,2019,83.22375101,2.631127509,Business,Rural,High
+STUD_496,23,Male,Single,Technologies,Online,Suburban,Master,65990,Part-time,2,0,6,8,2.2,1,5,2.5,25000,2019,95.13079549,2.651185124,Engineering,Urban,Low
+STUD_168,20,Male,Single,Technologies,Referral,Rural,Master,31848,Unemployed,6,8,8,5,3.29,0,5,2.5,25000,2019,92.86442282,2.911457833,Arts,Rural,High
+STUD_230,27,Female,Divorced,Design,Online,Rural,Master,45525,Employed,6,3,6,7,2.06,0,5,2.5,25000,2019,88.02406947,2.823233961,Science,Urban,Medium
+STUD_373,25,Female,Single,Management,Referral,Suburban,High School,86319,Part-time,5,2,1,0,2.59,0,5,2.5,25000,2018,72.033007,2.02180364,Engineering,Urban,Medium
+STUD_330,27,Male,Married,Agronomy,In-person,Rural,Bachelor,25528,Employed,5,3,2,5,0.13,0,5,2.5,25000,2021,75.59796801,3.739084496,Engineering,Rural,High
+STUD_57,48,Female,Single,Agronomy,Referral,Suburban,PhD,23060,Part-time,6,8,0,6,1.86,1,5,2.5,25000,2017,73.48813688,2.476796448,Engineering,Rural,Medium
+STUD_234,30,Female,Single,Agronomy,Online,Rural,PhD,62919,Part-time,7,5,2,0,0.34,1,5,2.5,25000,2020,81.70026043,3.48203067,Engineering,Urban,High
+STUD_411,20,Female,Single,Design,Referral,Urban,Bachelor,33315,Unemployed,8,6,7,7,2.02,1,5,2.5,25000,2017,78.97965821,3.786366708,Arts,Rural,Medium
+STUD_22,27,Female,Married,Management,In-person,Urban,PhD,21548,Employed,7,3,3,8,0.64,0,5,2.5,25000,2019,76.72474401,2.900725924,Science,Rural,High
+STUD_360,19,Male,Married,Technologies,Referral,Urban,PhD,35181,Part-time,7,7,6,8,0.8,1,5,2.5,25000,2018,68.72667981,2.070673782,Engineering,Rural,Medium
+STUD_225,29,Male,Divorced,Design,Referral,Suburban,Bachelor,21545,Part-time,6,6,7,8,0.41,1,5,2.5,25000,2021,96.23503007,3.646622853,Arts,Urban,High
+STUD_25,26,Female,Divorced,Social Service,Online,Urban,Bachelor,116214,Employed,3,2,0,0,3.12,1,5,2.5,25000,2018,77.11855586,3.148561237,Arts,Urban,Low
+STUD_147,18,Male,Divorced,Design,Online,Rural,Bachelor,117620,Unemployed,5,3,6,2,0.66,1,5,2.5,25000,2021,65.94011427,3.768544051,Engineering,Rural,Low
+STUD_481,20,Male,Single,Nursing,In-person,Rural,Master,21746,Unemployed,6,6,2,6,3.77,0,5,2.5,25000,2020,85.85440188,2.941995961,Arts,Rural,High
+STUD_35,21,Male,Married,Journalism,Referral,Rural,High School,114786,Part-time,5,3,2,7,1.26,0,5,2.5,25000,2019,89.66119285,3.519883596,Engineering,Rural,Low
+STUD_128,24,Female,Divorced,Education,Online,Rural,High School,72928,Employed,8,7,7,0,1.13,0,5,2.5,25000,2018,78.13898716,3.561157371,Business,Urban,Medium
+STUD_256,25,Female,Married,Education,In-person,Urban,Master,110641,Employed,2,7,8,4,0.42,1,5,2.5,25000,2019,72.83425951,3.082519781,Science,Urban,High
+STUD_18,19,Male,Divorced,Management,Referral,Urban,PhD,85758,Part-time,5,2,0,1,0.26,0,5,2.5,25000,2018,83.38314804,3.638130862,Science,Rural,Low
+STUD_282,22,Male,Married,Education,In-person,Suburban,Bachelor,116419,Unemployed,5,3,4,3,2.85,1,5,2.5,25000,2017,62.67832996,2.836453107,Science,Rural,Low
+STUD_460,27,Male,Single,Design,In-person,Suburban,High School,86606,Part-time,5,1,7,2,0.66,0,5,2.5,25000,2018,73.69057713,2.096670229,Science,Rural,Low
+STUD_475,25,Male,Divorced,Design,In-person,Rural,PhD,31927,Unemployed,4,6,8,3,1.04,1,5,2.5,25000,2021,90.85698005,2.555816532,Engineering,Rural,High
+STUD_197,25,Male,Widowed,Nursing,In-person,Rural,High School,99102,Employed,1,0,3,1,2.14,1,5,2.5,25000,2021,96.40754171,3.454791986,Business,Rural,Low
+STUD_280,26,Male,Widowed,Design,In-person,Urban,Bachelor,26490,Part-time,1,4,0,5,0.83,0,5,2.5,25000,2018,64.46683186,3.748839044,Arts,Rural,Low
+STUD_493,22,Female,Widowed,Journalism,In-person,Rural,High School,58169,Part-time,1,4,0,8,5.905523166,1,5,2.5,25000,2018,73.05207432,3.067351358,Business,Urban,High
+STUD_194,20,Male,Widowed,Technologies,In-person,Suburban,Bachelor,84539,Employed,7,5,4,1,3,0,5,2.5,25000,2019,83.22375101,2.631127509,Business,Rural,High
+STUD_496,23,Male,Single,Technologies,Online,Suburban,Master,65990,Part-time,2,0,6,8,2.2,1,5,2.5,25000,2019,95.13079549,2.651185124,Engineering,Urban,Low
+STUD_168,20,Male,Single,Technologies,Referral,Rural,Master,31848,Unemployed,6,8,8,5,3.29,0,5,2.5,25000,2019,92.86442282,2.911457833,Arts,Rural,High
+STUD_230,27,Female,Divorced,Design,Online,Rural,Master,45525,Employed,6,3,6,7,2.06,0,5,2.5,25000,2019,88.02406947,2.823233961,Science,Urban,Medium
+STUD_373,25,Female,Single,Management,Referral,Suburban,High School,86319,Part-time,5,2,1,0,2.59,0,5,2.5,25000,2018,72.033007,2.02180364,Engineering,Urban,Medium
+STUD_330,27,Male,Married,Agronomy,In-person,Rural,Bachelor,25528,Employed,5,3,2,5,0.13,0,5,2.5,25000,2021,75.59796801,3.739084496,Engineering,Rural,High
+STUD_57,48,Female,Single,Agronomy,Referral,Suburban,PhD,23060,Part-time,6,8,0,6,1.86,1,5,2.5,25000,2017,73.48813688,2.476796448,Engineering,Rural,Medium
+STUD_234,30,Female,Single,Agronomy,Online,Rural,PhD,62919,Part-time,7,5,2,0,0.34,1,5,2.5,25000,2020,81.70026043,3.48203067,Engineering,Urban,High
+STUD_411,20,Female,Single,Design,Referral,Urban,Bachelor,33315,Unemployed,8,6,7,7,2.02,1,5,2.5,25000,2017,78.97965821,3.786366708,Arts,Rural,Medium
+STUD_22,27,Female,Married,Management,In-person,Urban,PhD,21548,Employed,7,3,3,8,0.64,0,5,2.5,25000,2019,76.72474401,2.900725924,Science,Rural,High
+STUD_164,28,Male,Widowed,Management,Referral,Urban,Bachelor,48756,Part-time,5,8,3,4,1.43,1,5,2.5,25000,2019,95.61904771,3.369821791,Arts,Rural,High
+STUD_364,21,Male,Single,Nursing,In-person,Suburban,PhD,75396,Employed,8,7,0,3,2.62,0,5,2.5,25000,2021,80.92656707,2.239410973,Business,Urban,Medium

@@ -1,0 +1,83 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.db
+
+# Virtual environment
+venv/
+myVenv/
+.env/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.exe
+*.bat
+
+# -----------------------------
+# Data Files (Raw or Large)
+# -----------------------------
+data/raw/
+data/raw/*
+*.zip
+*.tar.gz
+*.rar
+
+# Datasets – keep only preprocessed CSV if needed
+data/*.csv
+!data/preprocessed/*.csv
+!data/dataset.csv
+
+# -----------------------------
+# Cache
+# -----------------------------
+*.cache
+cache/
+__cache__/
+*.npy
+*.npz
+
+# Matplotlib cache
+~/.matplotlib
+
+# -----------------------------
+# Build / dist
+# -----------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Node modules (if using JS dashboard)
+node_modules/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env.local
+.env.prod
+*.credentials
+*.token
