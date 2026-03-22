@@ -1,5 +1,5 @@
 # -----------------------------
-# Python
+# Python Environment
 # -----------------------------
 __pycache__/
 *.py[cod]
@@ -18,70 +18,64 @@ myVenv/
 .ipynb_checkpoints/
 *.ipynb_checkpoints/
 
-# VSCode
+# VSCode / IDE
 .vscode/
+.idea/
 *.code-workspace
 
-# PyCharm
-.idea/
-
-# Logs
+# Logs & OS Trash
 *.log
-
-# OS files
 .DS_Store
 Thumbs.db
-
-# Byte-compiled / optimized / DLL files
 *.dll
 *.exe
 *.bat
 
 # -----------------------------
-# Data Files (Raw or Large)
+# Data Files (Raw/Large)
 # -----------------------------
 data/raw/
 data/raw/*
 *.zip
 *.tar.gz
 *.rar
-
-# Datasets – keep only preprocessed CSV if needed
 data/*.csv
 !data/preprocessed/*.csv
 !data/dataset.csv
 
 # -----------------------------
-# Cache
+# AI / ML Cache
 # -----------------------------
 *.cache
 cache/
 __cache__/
 *.npy
 *.npz
-
-# Matplotlib cache
 ~/.matplotlib
 
 # -----------------------------
-# Build / dist
+# Build & Dependencies
 # -----------------------------
 build/
 dist/
 *.egg-info/
 *.egg
 
-# Node modules (if using JS dashboard)
+# Frontend Dependencies (Node Modules)
 node_modules/
+**/node_modules/
+frontend/react_dashboard/node_modules/
 
-# -----------------------------
-# Environment / Secrets
-# -----------------------------
+# Credentials
 .env.local
 .env.prod
 *.credentials
 *.token
 
-# Project Analysis Report
+# -----------------------------
+# Legacy / Redundant Folders
+# -----------------------------
+research_and_archive/
+student_performance_api/
+WebApp/
 project_analysis_report.md
-

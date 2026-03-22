@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 import joblib
 import os
 import shap
@@ -60,6 +61,13 @@ def get_shap_analysis(student_id, student_row):
     explainer = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(X_scaled)
     
+    # Base Value
+    base_value = explainer.expected_value
+    if isinstance(base_value, list) or isinstance(base_value, np.ndarray):
+        bv = float(base_value[0])
+    else:
+        bv = float(base_value)
+    
     # Shap values for our single row
     # In regression, shap_values is an array/list of values
     if isinstance(shap_values, list): # For some versions/multi-output
@@ -71,9 +79,43 @@ def get_shap_analysis(student_id, student_row):
     shap_df = pd.DataFrame({
         'Feature': feature_names,
         'Impact': sv
-    }).sort_values(by='Impact', ascending=True)
+    })
+    # Keep absolute order for waterfall sorting, but store raw impact
+    shap_df['Abs_Impact'] = shap_df['Impact'].abs()
+    shap_df = shap_df.sort_values(by='Abs_Impact', ascending=True)
     
-    return shap_df
+    return shap_df, bv
+
+@st.cache_data
+def get_global_shap_data(data):
+    feature_names = metadata['feature_names']
+    encoders = metadata['encoders']
+    
+    # Sample down for speed if the dataset is large
+    sample_df = data.sample(n=min(500, len(data)), random_state=42)
+    sample_features = sample_df[feature_names].copy()
+    
+    # We need a numeric version for SHAP calculation
+    X_numeric = sample_features.copy()
+    for col, le in encoders.items():
+        if col in X_numeric.columns:
+            try:
+                X_numeric[col] = le.transform(X_numeric[col].astype(str))
+            except:
+                X_numeric[col] = 0
+                
+    X_scaled = scaler.transform(X_numeric)
+    explainer = shap.TreeExplainer(model)
+    shap_values = explainer.shap_values(X_scaled)
+    
+    if isinstance(shap_values, list): # For multi-output
+        sv = shap_values[0]
+    else:
+        sv = shap_values
+        
+    # Return SHAP values and the numeric features DataFrame (for beeswarm coloring)
+    # Using X_numeric so SHAP knows it's numeric and can color red/blue appropriately
+    return sv, X_numeric
 
 # --- Helper Functions ---
 def predict_score(input_data):
@@ -92,14 +134,14 @@ def get_association_rules(data):
     # 1. Prepare Data for Mining (Discretize numerical values)
     df_mining = data.copy()
     
-    # Bucketize CGPA
-    df_mining['Grade_Bucket'] = pd.cut(df_mining['CGPA'], bins=[0, 5, 7, 8.5, 10], labels=['Fail/Low', 'Average', 'Good', 'Excellent'])
+    # Bucketize Final Percentage
+    df_mining['Grade_Bucket'] = pd.cut(df_mining['Final_Percentage'], bins=[0, 45, 60, 75, 100], labels=['Fail/Low', 'Average', 'Good', 'Excellent'])
     
     # Bucketize Study Hours
-    df_mining['Study_Load'] = pd.cut(df_mining['Study_Hours_Week'], bins=[0, 10, 25, 100], labels=['Low Study', 'Moderate Study', 'High Study'])
+    df_mining['Study_Load'] = pd.cut(df_mining['Study_Hours_Per_Day'], bins=[0, 2, 5, 24], labels=['Low Study', 'Moderate Study', 'High Study'])
     
-    # Keep only relevant categorical columns for pattern mining
-    mining_cols = ['Family_Income', 'Parent_Education', 'Stress_Level', 'Health_Status', 'Grade_Bucket', 'Study_Load', 'Resources_Access', 'Community_Involvement']
+    # Keep only relevant categorical columns for pattern mining (Mapped to Indian Dataset)
+    mining_cols = ['Monthly_Income_INR', 'Father_Education', 'Stress_Level', 'Location', 'Grade_Bucket', 'Study_Load', 'Internet_Access', 'Scholarship']
     df_mining_cats = df_mining[mining_cols].astype(str)
     
     # One-Hot Encode
@@ -171,13 +213,20 @@ page = st.sidebar.radio("Navigation",
                         on_change=update_page)
 
 # --- DATA LOADER ---
-# In a real app, this would be the uploaded file.
-# For demo, we load the synthetic data we generated.
-data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "new_student_data.csv")
+# Use the Indian College Student Dataset as the primary source
+data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "Indian_College_Student_Dataset.csv")
 if os.path.exists(data_path):
     df_raw = pd.read_csv(data_path)
+    # Derive Performance Category for the dashboard logic
+    def categorize(score):
+        if score >= 75: return 'Excellent'
+        elif score >= 60: return 'Good'
+        elif score >= 45: return 'Average'
+        else: return 'Low/At-Risk'
+    
+    df_raw['Performance_Category'] = df_raw['Final_Percentage'].apply(categorize)
 else:
-    st.error("Data file not found.")
+    st.error("Indian College Student Dataset not found.")
     st.stop()
 
 # --- PAGES ---
@@ -186,12 +235,12 @@ if page == "📊 Class Overview":
     st.title("Class Performance Overview")
     
     # metrics
-    avg_cgpa = df_raw['CGPA'].mean()
+    avg_score = df_raw['Final_Percentage'].mean()
     at_risk_count = df_raw[df_raw['Performance_Category'] == 'Low/At-Risk'].shape[0]
-    avg_attendance = df_raw['Attendance_Rate'].mean()
+    avg_attendance = df_raw['Attendance_Percentage'].mean()
     
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Avg Class CGPA", f"{avg_cgpa:.2f}", delta_color="normal")
+    col1.metric("Avg Final Score", f"{avg_score:.1f}%", delta_color="normal")
     col2.metric("At-Risk Students", f"{at_risk_count}", delta="-2" if at_risk_count > 0 else "0", delta_color="inverse")
     col3.metric("Avg Attendance", f"{avg_attendance:.1f}%")
     col4.metric("Total Students", len(df_raw))
@@ -202,12 +251,12 @@ if page == "📊 Class Overview":
             at_risk_df = df_raw[df_raw['Performance_Category'] == 'Low/At-Risk']
             
             # 1. Create a simplified dataframe for display
-            display_df = at_risk_df[['Student_ID', 'Name', 'Branch', 'Current_Year', 'CGPA', 'Attendance_Rate', 'Stress_Level']].reset_index(drop=True)
+            display_df = at_risk_df[['Student_ID', 'Gender', 'Institute_Type', 'Final_Percentage', 'Attendance_Percentage', 'Stress_Level']].reset_index(drop=True)
             
             # 2. Use Dataframe Selection (Streamlit Feature)
             st.write("👇 **Click on a row to analyze that student:**")
             selection = st.dataframe(
-                display_df.style.format({'CGPA': '{:.2f}', 'Attendance_Rate': '{:.1f}'}), 
+                display_df.style.format({'Final_Percentage': '{:.1f}', 'Attendance_Percentage': '{:.1f}'}), 
                 on_select="rerun", 
                 selection_mode="single-row",
                 use_container_width=True
@@ -237,18 +286,43 @@ if page == "📊 Class Overview":
         st.plotly_chart(fig_pie, use_container_width=True)
         
     with col_chart2:
-        # CGPA vs Study Hours (The correlation we found)
-        fig_scatter = px.scatter(df_raw, x='Study_Hours_Week', y='CGPA', color='Performance_Category',
-                                 title='Impact of Study Hours on CGPA', opacity=0.7)
+        # Final Percentage vs Study Hours
+        fig_scatter = px.scatter(df_raw, x='Study_Hours_Per_Day', y='Final_Percentage', color='Performance_Category',
+                                 title='Impact of Study Hours on Score', opacity=0.7)
         st.plotly_chart(fig_scatter, use_container_width=True)
 
-    # Branch Comparison
-    # Branch Comparison
-    st.markdown("### 🏛️ Comparison by Branch")
-    branch_perf = df_raw.groupby('Branch')['CGPA'].mean().reset_index().sort_values(by='CGPA')
-    fig_bar = px.bar(branch_perf, x='Branch', y='CGPA', color='CGPA', title='Average CGPA by Branch',
-                     color_continuous_scale='Viridis')
-    st.plotly_chart(fig_bar, use_container_width=True)
+
+    # --- GLOBAL CONTEXT GRAPH (XAI Feature Importance) ---
+    st.markdown("---")
+    st.markdown("### 3. Global Context: How do these factors affect the whole class?")
+    
+    with st.spinner("Calculating global feature importance..."):
+        sv, X_sample = get_global_shap_data(df_raw)
+        
+        # We will use matplotlib for SHAP plots. Apply dark background to match theme.
+        plt.style.use('dark_background')
+        
+        col_shap1, col_shap2 = st.columns(2)
+        
+        with col_shap1:
+            st.markdown("**Average Feature Importance (Bar)**")
+            fig1, ax1 = plt.subplots(figsize=(8, 6))
+            shap.summary_plot(sv, X_sample, plot_type="bar", show=False, color="#00CC96")
+            
+            # Match background
+            fig1.patch.set_facecolor('#0E1117')
+            ax1.set_facecolor('#0E1117')
+            st.pyplot(fig1)
+            
+        with col_shap2:
+            st.markdown("**Feature Impact Distribution (Beeswarm)**")
+            fig2, ax2 = plt.subplots(figsize=(8, 6))
+            shap.summary_plot(sv, X_sample, plot_type="dot", show=False)
+            
+            # Match background
+            fig2.patch.set_facecolor('#0E1117')
+            ax2.set_facecolor('#0E1117')
+            st.pyplot(fig2)
 
     # --- Class-Wide Pattern Discovery (Association Rules) ---
     st.markdown("---")
@@ -314,36 +388,31 @@ elif page == "🔍 Student Analysis":
         with col_prof1:
             st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=120)
         with col_prof2:
-            st.subheader(f"{student_data['Name']} ({selected_id})")
-            st.write(f"**Branch:** {student_data['Branch']} | **Year:** {student_data['Current_Year']}")
-            st.write(f"**Current Status:** {student_data['Performance_Category']}")
+            st.subheader(f"Student ID: {selected_id}")
+            st.write(f"**Education:** {student_data['Education_Level']} | **Gender:** {student_data['Gender']} | **Age:** {student_data['Age']}")
+            st.write(f"**Current Category:** {student_data['Performance_Category']}")
             
         # Growth Pattern Chart
         st.markdown("---")
         st.markdown("### 🚀 Academic Growth Trajectory")
         
-        # Extract Semester GPAs
-        sem_cols = [f'Sem_{i}_GPA' for i in range(1,9)]
-        student_grades = student_data[sem_cols]
-        # Filter None
-        y_values = [val for val in student_grades.values if pd.notna(val)]
-        x_values = [f"Sem {i+1}" for i in range(len(y_values))]
+        # Extract Previous vs Final
+        y_values = [student_data['Previous_Percentage'], student_data['Final_Percentage']]
+        x_values = ["Previous Percentage", "Final Percentage"]
         
-        if len(y_values) > 0:
-            fig_line = go.Figure()
-            # Student Line
-            fig_line.add_trace(go.Scatter(x=x_values, y=y_values, mode='lines+markers', name='Student GPA',
-                                          line=dict(color='#00CC96', width=4)))
-            
-            # Class Average Line (for context)
-            class_avg = df_raw[sem_cols].mean().values[:len(y_values)]
-            fig_line.add_trace(go.Scatter(x=x_values, y=class_avg, mode='lines', name='Class Average',
-                                          line=dict(color='gray', width=2, dash='dot')))
-            
-            fig_line.update_layout(title="Semester-wise Performance Trend", yaxis_title="GPA", yaxis_range=[0, 10])
-            st.plotly_chart(fig_line, use_container_width=True)
-        else:
-            st.warning("No academic history available for 1st Semester students yet.")
+        fig_line = go.Figure()
+        # Student Line
+        fig_line.add_trace(go.Scatter(x=x_values, y=y_values, mode='lines+markers', name='Student Progress',
+                                        line=dict(color='#00CC96', width=4)))
+        
+        # Class Average for context
+        avg_prev = df_raw['Previous_Percentage'].mean()
+        avg_final = df_raw['Final_Percentage'].mean()
+        fig_line.add_trace(go.Scatter(x=x_values, y=[avg_prev, avg_final], mode='lines', name='Class Average',
+                                        line=dict(color='gray', width=2, dash='dot')))
+        
+        fig_line.update_layout(title="Academic Growth: Previous vs Final", yaxis_title="Percentage (%)", yaxis_range=[0, 100])
+        st.plotly_chart(fig_line, use_container_width=True)
 
 
         # Root Cause Analysis (Factors)
@@ -353,22 +422,22 @@ elif page == "🔍 Student Analysis":
         
         with col_fact1:
             st.info("📚 **Study Habits**")
-            st.metric("Study Hours/Week", f"{student_data['Study_Hours_Week']} hrs")
-            if student_data['Study_Hours_Week'] < 10:
+            st.metric("Study Hours/Day", f"{student_data['Study_Hours_Per_Day']} hrs")
+            if student_data['Study_Hours_Per_Day'] < 3:
                 st.error("⚠️ Low Study Time")
             else:
                 st.success("✅ Good Consistency")
                 
         with col_fact2:
             st.info("🏫 **Attendance**")
-            st.metric("Attendance Rate", f"{student_data['Attendance_Rate']}%")
-            if student_data['Attendance_Rate'] < 75:
+            st.metric("Attendance Rate", f"{student_data['Attendance_Percentage']}%")
+            if student_data['Attendance_Percentage'] < 75:
                 st.error("⚠️ Attendance Alert!")
                 
         with col_fact3:
             st.info("🧠 **Well-being**")
             st.write(f"**Stress Level:** {student_data['Stress_Level']}")
-            st.write(f"**Health:** {student_data['Health_Status']}")
+            st.write(f"**Previous Score:** {student_data['Previous_Percentage']}%")
 
         # --- PERSONALIZED ROOT CAUSE ANALYSIS (Apriori Match) ---
         st.markdown("---")
@@ -388,13 +457,13 @@ elif page == "🔍 Student Analysis":
             
             student_profile = student_data.astype(str).to_dict()
             # Add buckets manually to match rule format
-            if student_data['CGPA'] < 5: student_profile['Grade_Bucket'] = 'Fail/Low'
-            elif student_data['CGPA'] < 7: student_profile['Grade_Bucket'] = 'Average'
-            elif student_data['CGPA'] < 8.5: student_profile['Grade_Bucket'] = 'Good'
+            if student_data['Final_Percentage'] < 45: student_profile['Grade_Bucket'] = 'Fail/Low'
+            elif student_data['Final_Percentage'] < 60: student_profile['Grade_Bucket'] = 'Average'
+            elif student_data['Final_Percentage'] < 75: student_profile['Grade_Bucket'] = 'Good'
             else: student_profile['Grade_Bucket'] = 'Excellent'
             
-            if student_data['Study_Hours_Week'] <= 10: student_profile['Study_Load'] = 'Low Study'
-            elif student_data['Study_Hours_Week'] <= 25: student_profile['Study_Load'] = 'Moderate Study'
+            if student_data['Study_Hours_Per_Day'] <= 2: student_profile['Study_Load'] = 'Low Study'
+            elif student_data['Study_Hours_Per_Day'] <= 5: student_profile['Study_Load'] = 'Moderate Study'
             else: student_profile['Study_Load'] = 'High Study'
 
             found_cause = False
@@ -443,9 +512,9 @@ elif page == "🔍 Student Analysis":
         # Recommendation Engine
         st.markdown("### 💡 AI Recommendations")
         recs = []
-        if student_data['Attendance_Rate'] < 75:
+        if student_data['Attendance_Percentage'] < 75:
             recs.append("- 🔴 **Immediate Intervention:** Attendance is below 75%. Schedule a counseling session.")
-        if student_data['Study_Hours_Week'] < 15 and student_data['CGPA'] < 7.0:
+        if student_data['Study_Hours_Per_Day'] < 3 and student_data['Final_Percentage'] < 60:
             recs.append("- 🟡 **Academic:** Increase self-study hours. Consider peer study groups.")
         if student_data['Stress_Level'] == 'High':
             recs.append("- 🔵 **Support:** Student indicates high stress. Refer to student well-being center.")
@@ -456,44 +525,59 @@ elif page == "🔍 Student Analysis":
             for r in recs:
                 st.markdown(r)
 
-        # --- SHAP ANALYSIS DEEP DIVE ---
+        # --- LOCAL CONTEXT GRAPH (Waterfall Plot) ---
         st.markdown("---")
-        st.markdown("### 🧠 Deep Dive: Individual Impact Analysis")
-        st.markdown("This AI explanation reveals which specific factors are pushing this student's performance up or down.")
+        st.markdown("### 🔬 Local Context Graph (Student Specific Analysis)")
+        st.markdown("""
+        This **Waterfall Plot** explains why the model made this specific prediction. 
+        It starts with the **Average (Base) Context** and shows the **step-by-step contribution** of each feature to the final score prediction.
+        - **Green bars (+):** Factors pushing the prediction higher.
+        - **Red bars (-):** Factors dragging the prediction down.
+        """)
         
         if st.button("🔍 Generate AI Performance Breakdown"):
             with st.spinner("Calculating factor contributions..."):
-                shap_df = get_shap_analysis(selected_id, student_data)
+                shap_df, base_value = get_shap_analysis(selected_id, student_data)
                 
-                # Colors based on existing theme
-                # Success Green: #00CC96, Alert Red: #EF553B
-                shap_df['Color'] = shap_df['Impact'].apply(lambda x: '#00CC96' if x > 0 else '#EF553B')
-                shap_df['Direction'] = shap_df['Impact'].apply(lambda x: 'Positive (+)' if x > 0 else 'Negative (-)')
+                # We build a Waterfall chart data structure
+                # Features are along the Y-axis. The base value starts it all.
+                
+                # For Plotly Waterfall, we need a list of names, measure types (relative/total), and x values.
+                measure = ["absolute"] + ["relative"] * len(shap_df) + ["total"]
+                y_labels = ["Base Value"] + shap_df['Feature'].tolist() + ["Predicted Score"]
+                # Impact values (x)
+                x_vals = [base_value] + shap_df['Impact'].tolist() + [base_value + shap_df['Impact'].sum()]
+                
+                # Text annotations to show exact contribution
+                text_annotations = [f"{base_value:.1f}"] + [f"{'+' if v > 0 else ''}{v:.2f}" for v in shap_df['Impact']] + [f"{x_vals[-1]:.1f}"]
 
-                fig_shap = px.bar(
-                    shap_df,
-                    x='Impact',
-                    y='Feature',
-                    orientation='h',
-                    color='Direction',
-                    color_discrete_map={'Positive (+)': '#00CC96', 'Negative (-)': '#EF553B'},
-                    title=f"What is driving {student_data['Name']}'s predicted score?",
-                    labels={'Impact': 'Impact on Predicted Score', 'Feature': 'Factor'}
-                )
-                
-                # Layout adjustments for transparency and theme matching
-                fig_shap.update_layout(
+                fig_waterfall = go.Figure(go.Waterfall(
+                    name="Student",
+                    orientation="h",
+                    measure=measure,
+                    y=y_labels,
+                    x=x_vals,
+                    textposition="outside",
+                    text=text_annotations,
+                    connector={"line": {"color": "rgba(255,255,255,0.2)"}},
+                    increasing={"marker": {"color": "#00CC96"}},
+                    decreasing={"marker": {"color": "#EF553B"}},
+                    totals={"marker": {"color": "#636EFA"}}
+                ))
+
+                fig_waterfall.update_layout(
+                    title=f"Step-by-Step AI Breakdown for {student_data['Student_ID']}",
                     plot_bgcolor='rgba(0,0,0,0)',
                     paper_bgcolor='rgba(0,0,0,0)',
                     font_color='#ffffff',
-                    showlegend=True,
-                    height=500
+                    showlegend=False,
+                    height=550,
+                    margin=dict(l=150) # Extra margin for long feature names
                 )
-                fig_shap.update_xaxes(showgrid=True, gridcolor='rgba(255,255,255,0.1)')
-                fig_shap.update_yaxes(showgrid=False)
+                fig_waterfall.update_xaxes(showgrid=True, gridcolor='rgba(255,255,255,0.1)', title="Score Impact")
+                fig_waterfall.update_yaxes(showgrid=False)
                 
-                st.plotly_chart(fig_shap, use_container_width=True)
-                st.info("💡 **How to read:** Bars pointing to the right (Green) are strengths helping the student. Bars pointing to the left (Red) are barriers reducing their predicted score.")
+                st.plotly_chart(fig_waterfall, use_container_width=True)
 
 elif page == "📥 Upload Data":
     st.title("Upload Class Data")
