@@ -72,12 +72,15 @@ export default function App() {
         Papa.parse('/data/Indian_School_Student_Dataset_10000_Final.csv', {
             download: true,
             header: true,
-            delimiter: "\t",
+            skipEmptyLines: true,
             dynamicTyping: true,
             complete: (results) => {
                 const processed = normalizeData(results.data);
                 setData(processed);
-                if (processed.length > 0) setSelectedStudentId(String(processed[0].Student_ID));
+                if (processed.length > 0) {
+                    const firstStudentId = String(processed[0].Student_ID);
+                    setSelectedStudentId(firstStudentId);
+                }
                 setLoading(false);
             },
             error: (err) => {
